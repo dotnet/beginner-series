@@ -6,7 +6,7 @@ This repository contains all the content associated with our .NET Beginner video
 
 # How-to
 
-Navigate through the folder associated with the video series your interested in - each folder is linked in the Series section below. Each folder contains an outline of the series with links to the videos, video titles, video descriptions, and any code you'll need to follow along!
+Navigate through the folder associated with the video series that you're interested in - each folder is linked in the Series section below. Each folder contains an outline of the series with links to the videos, video titles, video descriptions, and any code you'll need in order to follow along!
 
 # Series
 
