@@ -2,7 +2,7 @@
 
 ## Video Series Link
 
-*Link the video playlist* [ToDo]
+https://aka.ms/dotnet/beginnervideos/youtube/visualstudio
 
 ## Overview
 
@@ -16,11 +16,11 @@ In this video series, we will look at the best features Visual Studio has to off
 | **Follow along**                  | *[Starter Code]("./sample-code)*                                                                |
 | **Slides** | [Powerpoint](git-and-github-slides.pptx) 
                          
-## Video [ToDo]
+## Video
 
 Embed your video playlist here. Instructions on how to create a great video experience is [available on this page](../video-guidance.md).
 
-YouTube link: 
+YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/visualstudio
 
 Learn link: 
 
@@ -79,7 +79,7 @@ In part four of this series, we show how to get started with Git and GitHub in V
 
 ## Feedback
 
-Be sure to give [feedback about this workshop](https://forms.office.com/r/MdhJWMZthR)! [ToDo]
+Be sure to give [feedback about this workshop](https://aka.ms/dotnet/beginnervideos/feedback)!
 
 [Code of Conduct](../CODE_OF_CONDUCT.md)
 
