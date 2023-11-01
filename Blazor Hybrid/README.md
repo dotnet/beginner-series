@@ -2,22 +2,22 @@
 
 ## Video Series Links
 
-1 - [What is Blazor Hybrid?](https://youtu.be/oGimRuw2KVg)
-2 - [Development Machine Setup for Blazor Hybrid](https://youtu.be/kOuRsH_2gQc)
-3 - [Blazor Hybrid Solution Architecture & Deployment Overview](https://youtu.be/anP8RJGtikI)
-4 - [Building Hybrid User Interfaces with Blazor Hybrid](https://youtu.be/pWDf1AnJ4ds)
-5 - [Accessing Platform Features in Blazor Hybrid](https://youtu.be/Vgs4SYdZ_Qk)
-6 - [Mix and Match Native and Web UI](https://youtu.be/98RTI5X5lFc)
-7 - [Share code between Blazor Hybrid & Blazor Apps](https://youtu.be/CM_L2jlahPk)
-8 - [Blazor Hybrid Recap & Resources](https://youtu.be/oOwGLrLmUUY)
+1. [What is Blazor Hybrid?](https://youtu.be/oGimRuw2KVg)
+1. [Development Machine Setup for Blazor Hybrid](https://youtu.be/kOuRsH_2gQc)
+1. [Blazor Hybrid Solution Architecture & Deployment Overview](https://youtu.be/anP8RJGtikI)
+1. [Building Hybrid User Interfaces with Blazor Hybrid](https://youtu.be/pWDf1AnJ4ds)
+1. [Accessing Platform Features in Blazor Hybrid](https://youtu.be/Vgs4SYdZ_Qk)
+1. [Mix and Match Native and Web UI](https://youtu.be/98RTI5X5lFc)
+1. [Share code between Blazor Hybrid & Blazor Apps](https://youtu.be/CM_L2jlahPk)
+1. [Blazor Hybrid Recap & Resources](https://youtu.be/oOwGLrLmUUY)
 
 ## Overview
 
-In this video series, we will discuss Blazor Hybrid development with .NET MAUI to build hybrid apps for iOS, Android, Mac, and Windows while sharing code with a Blazor web app.
+Join James Montemagno as he takes you on a journey of building your first Hybrid applications across iOS, Android, Mac, Windows, and Web with ASP.NET Core, Blazor, Blazor Hybrid, and .NET MAUI!  You will learn how to use Blazor Hybrid to blend desktop and mobile native client frameworks with .NET and Blazor.
 
 | **Goal**              | *describe the goal of the workshop*                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *describe your learning goals*                                        |
+| **What will you learn**       | Introduction to Blazor Hybrid, .NET MAUI, and building hybrid apps with .NET across mobile, desktop, and web.                                      |
 | **What you'll need**          | [Visual Studio 2022 or Visual Studio Code with .NET MAUI Configured](https://learn.microsoft.com/dotnet/maui/get-started/installation)|
 | **Number of videos**          | 8                                                               |
 | **Follow along**              | Follow the videos and see how to create new projects and add code throughout each video.                                                 |
