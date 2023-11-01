@@ -1,0 +1,71 @@
+@page "/todo"
+@attribute [RenderModeServer]
+@using HybridTodoApp.Data;
+@using Microsoft.Maui.Networking;
+@inject TodoService TodoService
+@inject IConnectivity ConnectivityService
+
+<h3>Todo (@todos.Count(todo => !todo.IsDone))</h3>
+
+@if(!hasInternet)
+{
+    <p>NO INTERNET!!!!</p>
+}
+
+<ul>
+    @foreach(var todo in todos)
+    {
+            <li>
+                <input type="checkbox" @bind="todo.IsDone"/>
+                <input @bind="todo.Title"/>
+            </li>
+    }
+</ul>
+
+<input placeholder="Something todo" @bind="newTodo"/>
+<button @onclick="AddTodo">Add Todo</button>
+
+<button @onclick="Save">Save</button>
+
+<button @onclick="Upload">Upload</button>
+
+@code {
+    List<TodoItem> todos = new List<TodoItem>();
+    string newTodo;
+    bool hasInternet = true;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        var items = TodoService.LoadItems();
+        todos.AddRange(items);
+    }
+
+    void Upload()
+    {
+        if (ConnectivityService is null)
+        {
+            return;
+        }
+
+        hasInternet = ConnectivityService.NetworkAccess == NetworkAccess.Internet;
+    }
+
+    void Save()
+    {
+        TodoService.SaveItems(todos);
+    }
+
+    void AddTodo()
+    {
+        if (string.IsNullOrWhiteSpace(newTodo))
+            return;
+
+        todos.Add(new TodoItem
+            {
+                Title = newTodo
+            });
+
+        newTodo = string.Empty;
+    }
+}
