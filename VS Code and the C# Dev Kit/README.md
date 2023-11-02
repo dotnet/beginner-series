@@ -1,82 +1,74 @@
-# Full Series Title
+# C# and .NET Development in VS Code for Beginners
 
 ## Video Series Link
 
-*Link the video playlist*
+[*Watch the playlist*](https://aka.ms/dotnet/beginnervideos/youtube/vscode)
 
 ## Overview
 
-In this video series, we will discuss *insert your topic*.
+Writing C# applications in Visual Studio Code has never been easier!  We recently introduced the new C# Dev Kit extension   In this video series, you’ll learn how to get started writing, debugging, testing, and running your C# applications productively in VS Code using the new C# Dev Kit extension.
 
-| **Goal**              | *describe the goal of the workshop*                                    |
+| **Goal**              | *develop a C# app in VS Code using the C# Dev Kit extension*                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *describe your learning goals*                                        |
-| **What you'll need**          | *link all the necessary tooling, subscriptions, and downloads needed* |
-| **Number of videos**                  | *specify the number of videos*                                                                |
-| **Follow along**                  | *link to starter code*                                                                |
-| **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
-| **Slides** | [Powerpoint](slides.pptx) 
+| **What will you learn**       | *What is VS Code and C# Dev Kit?, how to install VS Code and C#, project management, using C# productivity tools, debugging and testing C# apps in VS Code*                                        |
+| **What you'll need**          | *[VS Code](code.visualstudio.com), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks), [VS Subscription](https://visualstudio.microsoft.com/subscriptions/)* |
+| **Number of videos**                  | *7*                                                                |
+| **Follow along**                  | *[Codele Github Repo](https://github.com/leslierichardson95/codele-devkit-demo)*                                                                |
+| **Just want to try the app or see the solution?** | *[Codele repo (finalProduct branch)](https://github.com/leslierichardson95/codele-devkit-demo/tree/finalProduct) or view sample-code folder*                          |
+| **Slides** | [Powerpoint](VS Code and the C# Dev Kit/CSharp_DevKit_Series_Intro_Slides.pptx) 
                          
 ## Video
 
-Embed your video playlist here. Instructions on how to create a great video experience is [available on this page](../video-guidance.md).
-
-YouTube link: 
-
-Learn link:
+YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/vscode
 
 ## Pre-Learning
 
-*add pre-learning resources if applicable*
+* [.NET](https://dotnet.microsoft.com/)
+* [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
+* [VS Code](https://code.visualstudio.com/)
+* [Blazor (optional)](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor)
 
-## Prerequisites
 
-*any installations that will be helpful, any hardware or software needed*
+## Episode 1 : What is VS Code and C# Dev Kit?
 
-## What students will learn
-
-*In this area, describe the scenario and intended solution, paraphrasing what is in the module or creating a brief description here*
-
-Example: Have you ever wanted to visit a museum virtually or explore its collections right from your home computer? In this workshop, use an API, or Application Programming Interface, to learn more about a museum collection.
-
-*add a screenshot of the completed project*
-
-![image of completed project](images/placeholder.png)
-
-## Video 1 : Title
-
-Include abstract / title
+Watch this video to start your journey toward writing your first C# program in VS Code.  You’ll learn about Visual Studio Code, how it both complements and differs from the Visual Studio IDE, and how the new C# Dev Kit extension can boost your productivity in VS Code.
 
 [link to video](link)
 
-## Video 2 : Title
+## Episode 2 : Installing VS Code and C# Dev Kit
 
-text
-
-link
-
-## Video 3 : Title
-
-text
+In this video, we’ll walk you through how easy it is to download and install both VS Code and the C# Dev Kit VS Code extension.  
 
 link
 
-## Video 4 : Title
+## Episode 3 : C# Project Management in VS Code
 
-text
-
-link
-
-## Video 5 : Title
-
-text
+Get started with your first C# application in VS Code by adding and managing projects and files using the C# Dev Kit extension’s Solution Explorer window.
 
 link
 
+## Episode 4 : C# Productivity in VS Code
 
-## Next steps
+The C# Dev Kit extension comes packed with new and improved editor features to make you more productive in VS Code.  In this video, we’ll write some C# code and discover some cool productivity tools you can use along the way!
 
-*links to Microsoft Learn to further learning progress, and/or a path to certifications, if applicable*
+link
+
+## Episode 5 : Debugging C# Apps in VS Code
+
+This video will show how you can easily start debugging your code in VS Code using the C# Dev Kit extension. 
+
+link
+
+## Episode 6 : Testing C# Apps in VS Code
+
+The C# Dev Kit extension has buffed up VS Code’s Test Explorer and the overall testing experience with new commands and capabilities.  Let’s explore how you can run and manage your C# tests with ease!
+
+link
+
+## Episode 7 : How to Contribute to C# in VS Code
+We’re always looking to improve the C# experience in VS Code, and we need your help to create a satisfying experience!  Learn how you can share your feedback and contribute to enhancing VS Code and the C# Dev Kit extension. 
+
+link
 
 ## Feedback
 
