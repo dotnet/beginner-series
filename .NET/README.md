@@ -1,86 +1,64 @@
-# Full Series Title
+# .NET for Beginners
+
+New to .NET? We know there’s a lot to explore – so join us on the .NET for Beginners series to understand .NET one step at a time. We’ll cover what .NET is, what you can build with it, how to get up and running within VS Code and how to enhance your projects with Nuget packages.
 
 ## Video Series Link
 
-*Link the video playlist*
+Full Series:
+YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/dotnet 
+
+Learn link:https://aka.ms/dotnet/beginnervideos/learn/dotnet
+
+Individual Video Links:
+1. [What is .NET?]()
+1. [Installing & Getting Started with .NET in VS Code]()
+1. [Adding a NuGet Package]() 
 
 ## Overview
 
-In this video series, we will discuss *insert your topic*.
+In this video series, we will discuss .NET.
 
-| **Goal**              | *describe the goal of the workshop*                                    |
+| **Goal**              | Introduction to .NET                                     |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *describe your learning goals*                                        |
-| **What you'll need**          | *link all the necessary tooling, subscriptions, and downloads needed* |
-| **Number of videos**                  | *specify the number of videos*                                                                |
-| **Follow along**                  | *link to starter code*                                                                |
-| **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
-| **Slides** | [Powerpoint](slides.pptx) 
+| **What will you learn**       | Introduction to .NET, how to install .NET, and how to add a NuGet package                                        |
+| **What you'll need**          | [VS Code](code.visualstudio.com), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) |
+| **Number of videos**                  | 3                                                                |
+| **Follow along**                  | [sample code](sample_code)                                                                |
+| **Slides** | [Powerpoint](.NET%20Conf%20Beginner%20Series.pptx) 
                          
 ## Video
 
-Embed your video playlist here. Instructions on how to create a great video experience is [available on this page](../video-guidance.md).
+YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/dotnet 
 
-YouTube link: 
-
-Learn link:
+Learn link:https://aka.ms/dotnet/beginnervideos/learn/dotnet
 
 ## Pre-Learning
 
-*add pre-learning resources if applicable*
+* [.NET](https://dotnet.microsoft.com/)
+* [C#](https://learn.microsoft.com/dotnet/csharp/)
+* [VS Code](https://code.visualstudio.com/)
 
-## Prerequisites
+## Video 1 : What is .NET?
 
-*any installations that will be helpful, any hardware or software needed*
-
-## What students will learn
-
-*In this area, describe the scenario and intended solution, paraphrasing what is in the module or creating a brief description here*
-
-Example: Have you ever wanted to visit a museum virtually or explore its collections right from your home computer? In this workshop, use an API, or Application Programming Interface, to learn more about a museum collection.
-
-*add a screenshot of the completed project*
-
-![image of completed project](images/placeholder.png)
-
-## Video 1 : Title
-
-Include abstract / title
+This video will cover some more high-level topics about .NET such as what it is, what languages and tools you can use with it, what you can build with it, and more!
 
 [link to video](link)
 
-## Video 2 : Title
+## Video 2 : Installing & Getting Started with .NET in VS Code
 
-text
-
-link
-
-## Video 3 : Title
-
-text
+In this tutorial we will install .NET, install VS Code, install C# Dev Kit, and create our first C# Console Application!
 
 link
 
-## Video 4 : Title
+## Video 3 : Adding a Nuget Package
 
-text
-
-link
-
-## Video 5 : Title
-
-text
+Learn how to add a Nuget package to your C# project in VS Code with 3 clicks!
 
 link
-
-
-## Next steps
-
-*links to Microsoft Learn to further learning progress, and/or a path to certifications, if applicable*
 
 ## Feedback
 
-Be sure to give [feedback about this workshop](https://forms.office.com/r/MdhJWMZthR)!
+Be sure to give [feedback about this workshop](https://aka.ms/dotnet/beginnervideos/feedback)!
 
 [Code of Conduct](../CODE_OF_CONDUCT.md)
 
