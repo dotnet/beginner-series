@@ -1,86 +1,92 @@
-# Full Series Title
+# .NET IoT for Beginners
+
+Since .NET is cross-platform and runs on different CPU architectures, it's compatible with a wide variety of single board computers, including Raspberry Pi. These devices are commonly used in Internet of Things (IoT) scenarios to communicate with sensors, displays, analog-to-digital converters, and more. In this series, you'll learn the essentials to run .NET code on single board computers and effectively utilize the .NET IoT Libraries to communicate with various IoT devices. You'll also see various practical examples to inspire your own projects!
 
 ## Video Series Link
 
-*Link the video playlist*
+Full Series:
+YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/iot 
+
+Learn link: https://aka.ms/dotnet/beginnervideos/learn/iot
+
+Individual Video Links:
+1. [Intro to .NET Iot with Single Board Computers and Raspberry Pi](https://youtu.be/SV08PVtAHrc?si=MWtC36lmGQ1Y_4gY)
+1. [Deploy .NET apps to single board computers and debug remotely](https://youtu.be/bJSSU5YuHKg?si=SlCVSunIfy2fypOH)
+1. [General Purpose Input/Output GPIO output control devices with .NET](https://youtu.be/VbuBpRrvYeY?si=oCXy4RWh-xOeNh-4)
+1. [General Purpose Input/Output: Read input with GPIO and .NET](https://youtu.be/e_2DCBpwgWw?si=liEAq_5qCqxbs4VD)
+1. [IoT sensors and displays with I2C and .NET](https://youtu.be/Zqttrk3FiCg?si=DDaf6cpf1JMAB-N6)
+1. [Convert analog signals to digital data with .NET](https://youtu.be/ZoiMCrLGw6M?si=EbZ6hyuolYH_oRZh)
 
 ## Overview
 
-In this video series, we will discuss *insert your topic*.
+In this video series, we will discuss .NET Internet of Things (IoT) scenarios.
 
-| **Goal**              | *describe the goal of the workshop*                                    |
+| **Goal**              |  Learn the building blocks of .NET Internet of Things (IoT) scenarios to communicate with sensors, displays, analog-to-digital converters, and more.                                   |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *describe your learning goals*                                        |
-| **What you'll need**          | *link all the necessary tooling, subscriptions, and downloads needed* |
-| **Number of videos**                  | *specify the number of videos*                                                                |
-| **Follow along**                  | *link to starter code*                                                                |
-| **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
-| **Slides** | [Powerpoint](slides.pptx) 
+| **What will you learn**       | The essentials to running .NET code on single board computers and effectively utilizing the .NET IoT Libraries to communicate with various IoT devices                                        |
+| **What you'll need**          | [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) |
+| **Number of videos**                  | 6                                                                |
+| **Follow along**                  |[sample code](sample-code)                                                                |
+ 
                          
 ## Video
 
-Embed your video playlist here. Instructions on how to create a great video experience is [available on this page](../video-guidance.md).
+Full Series:
+YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/iot 
 
-YouTube link: 
+Learn link: https://aka.ms/dotnet/beginnervideos/learn/iot
 
-Learn link:
+## Resources
 
-## Pre-Learning
+Links:
+- .NET Internet of Things Libraries Overview: https://learn.microsoft.com/dotnet/io... 
+- Raspberry Pi Sense HAT Quickstart: https://learn.microsoft.com/dotnet/io... 
+- .NET IoT Libraries on GitHub: https://github.com/dotnet/iot
+- Raspberry Pi documentation: https://www.raspberrypi.com/documenta...
+- .NET IoT Libraries documentation https://learn.microsoft.com/dotnet/iot
+- More .NET Beginner Series Videos: https://dot.net/videos 
+  
+## Video 1 : Intro to .NET Iot with Single Board Computers and Raspberry Pi
 
-*add pre-learning resources if applicable*
+In this video series, Microsoft Sr. Content Developer Cam Soper explores the use of .NET on common single-board computers, such as Raspberry Pi, Orange Pi, and Hummingboard. The series focus is using the .NET IoT Libraries to control LEDs, relays, sensors, displays, and more. In this introductory video, Cam shows how to prepare a Raspberry Pi for use with .NET, where to find the documentation, and how to run a quick demo using a Raspberry Pi Sense HAT.
 
-## Prerequisites
+Remember, even if you don't have a Raspberry Pi, most of the concepts in this series can be applied to other single board computers!
 
-*any installations that will be helpful, any hardware or software needed*
+[Intro to .NET Iot with Single Board Computers and Raspberry Pi](https://youtu.be/SV08PVtAHrc?si=MWtC36lmGQ1Y_4gY)
 
-## What students will learn
+## Video 2 : Deploy .NET apps to single board computers and debug remotely
 
-*In this area, describe the scenario and intended solution, paraphrasing what is in the module or creating a brief description here*
+In part 2 of the series, Microsoft Sr. Content Developer Cam Soper shows how to deploy, run, and debug .NET code on ARM-based single-board-computers (such as Raspberry Pi, Orange Pi, ODROID, and others). The video covers the self-contained deployment process and how to copy the published files to the device. Cam also explains how to remotely debug the app on the device using Visual Studio or Visual Studio Code.
 
-Example: Have you ever wanted to visit a museum virtually or explore its collections right from your home computer? In this workshop, use an API, or Application Programming Interface, to learn more about a museum collection.
+[Deploy .NET apps to single board computers and debug remotely](https://youtu.be/bJSSU5YuHKg?si=SlCVSunIfy2fypOH)
 
-*add a screenshot of the completed project*
+## Video 3 : General Purpose Input/Output GPIO output control devices with .NET
 
-![image of completed project](images/placeholder.png)
+In part 3 of the series, Microsoft Sr. Content Developer Cam Soper shows you how to use the pins on an single-board computer (like Raspberry Pi) to control external devices. Starting with the basics of the General Purpose Input/Output (GPIO) header, Cam demonstrates how to use a breadboard and a GPIO breakout board to create a simple LED circuit. Then, using the .NET IoT Libraries, he shows how to blink the LED. After that, he takes it up a notch by demonstrating how to use a relay to control a larger device like a light bulb or a fan. Join Cam as he walks you through this IoT equivalent of "Hello, World!"
 
-## Video 1 : Title
+[General Purpose Input/Output GPIO output control devices with .NET](https://youtu.be/VbuBpRrvYeY?si=oCXy4RWh-xOeNh-4)
 
-Include abstract / title
+## Video 4 : General Purpose Input/Output: Read input with GPIO and .NET
 
-[link to video](link)
+In part 4 of the series, join Microsoft Sr. Content Developer Cam Soper as he continues his exploration of using his Raspberry Pi's General-Purpose Input/Output header in this video. This time, Cam shows you how to use the same pins for input, starting with a demonstration of how to detect open and closed circuits using a magnetic reed switch. He then moves on to a laser setup, where he uses a voltage divider to detect when the laser beam is broken. Cam finishes the video by accepting a challenge from his son: to send and receive Morse code messages using laser light! Join Cam on this IoT adventure and learn how to create practical applications using single-board computers!
 
-## Video 2 : Title
+[General Purpose Input/Output: Read input with GPIO and .NET](https://youtu.be/e_2DCBpwgWw?si=liEAq_5qCqxbs4VD)
 
-text
+## Video 5 : IoT sensors and displays with I2C and .NET
 
-link
+Part 5 of the .NET IoT for Beginners series joins Sr. Content Developer Cam Soper as he shows how to interact with I²C devices using a single-board computers, like Raspberry Pi. Using a BME280 temperature, humidity, and pressure sensor and a 20x4 LCD character display, Cam demonstrates using the .NET IoT libraries to use the I²C protocol to communicate with any supported device.
 
-## Video 3 : Title
+[IoT sensors and displays with I2C and .NET](https://youtu.be/Zqttrk3FiCg?si=DDaf6cpf1JMAB-N6)
 
-text
+## Video 6 : Convert analog signals to digital data with .NET
 
-link
+How do analog signals get converted into digital data? In part 6 of .NET IoT for Beginners, Microsoft Sr. Content Developer Cam Soper explores Analog-to-Digital converters (ADCs) with single-board computers and the .NET IoT libraries. Cam then shows how he uses a Raspberry Pi and an MCP3008 ADC for one of his favorite activities: BBQ with .NET!
 
-## Video 4 : Title
-
-text
-
-link
-
-## Video 5 : Title
-
-text
-
-link
-
-
-## Next steps
-
-*links to Microsoft Learn to further learning progress, and/or a path to certifications, if applicable*
+[Convert analog signals to digital data with .NET](https://youtu.be/ZoiMCrLGw6M?si=EbZ6hyuolYH_oRZh)
 
 ## Feedback
 
-Be sure to give [feedback about this workshop](https://forms.office.com/r/MdhJWMZthR)!
+Be sure to give [feedback about this workshop](https://aka.ms/dotnet/beginnervideos/feedback)!
 
 [Code of Conduct](../CODE_OF_CONDUCT.md)
 
