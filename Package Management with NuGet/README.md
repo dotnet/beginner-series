@@ -1,86 +1,76 @@
-# Full Series Title
+# .NET Package Management with NuGet for Beginners
+
+NuGet is a tool that simplifies the process of incorporating third-party libraries and packages into your .NET projects. In this series, you’ll learn all about how to use NuGet, specifically how to install and use packages, how to create and publish your own packages, as well as some best practices and security features to look out for when using NuGet to interact with the open source code ecosystem.
 
 ## Video Series Link
 
-*Link the video playlist*
+Full Series:
+YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/nuget 
 
+Learn link: https://aka.ms/dotnet/beginnervideos/learn/nuget
+
+Individual Video Links:
+1. [Introduction to .NET Package Management using NuGet](link)
+1. [Installing a NuGet Package using the .NET CLI]()
+1. [Creating and Publishing a NuGet Package]()
+1. [NuGet Best Practices]()
+1. [Package Security in NuGet]()
+   
 ## Overview
 
-In this video series, we will discuss *insert your topic*.
+In this video series, we will discuss .NET Package Management with NuGet.
 
-| **Goal**              | *describe the goal of the workshop*                                    |
+| **Goal**              | Learn all about NuGet and how to use it                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *describe your learning goals*                                        |
-| **What you'll need**          | *link all the necessary tooling, subscriptions, and downloads needed* |
-| **Number of videos**                  | *specify the number of videos*                                                                |
-| **Follow along**                  | *link to starter code*                                                                |
-| **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
+| **What will you learn**       | How to install and use packages, create and publish your own packages, best practices and security features to look out for when using NuGet to interact with the open source code ecosystem                                        |
+| **What you'll need**          | [VS Code](code.visualstudio.com), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) |
+| **Number of videos**                  | 5                                                                |
+| **Follow along**                  | [sample code](sample-code)                                                                |
 | **Slides** | [Powerpoint](slides.pptx) 
                          
 ## Video
 
-Embed your video playlist here. Instructions on how to create a great video experience is [available on this page](../video-guidance.md).
+YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/nuget 
 
-YouTube link: 
+Learn link: https://aka.ms/dotnet/beginnervideos/learn/nuget
 
-Learn link:
+## Resources
 
-## Pre-Learning
+- [An Introduction to NuGet: What is NuGet and what does it do?](https://learn.microsoft.com/nuget/what-is-nuget)
+- [Install NuGet Client tools: Installing NuGet client tools](https://learn.microsoft.com/en-us/nuget/install-nuget-client-tools)
 
-*add pre-learning resources if applicable*
+## Video 1 : Introduction to .NET Package Management using NuGet
 
-## Prerequisites
+In this introductory video, Allie gives a quick introduction to package management, as well as an overview of how NuGet works.
 
-*any installations that will be helpful, any hardware or software needed*
+[Introduction to .NET Package Management using NuGet](link)
 
-## What students will learn
+## Video 2 : Installing a NuGet Package using the .NET CLI
 
-*In this area, describe the scenario and intended solution, paraphrasing what is in the module or creating a brief description here*
+In part 2 of this series, Product Manager Allie Barry demonstrates how to install and use a NuGet package in your projects using the .NET CLI. 
 
-Example: Have you ever wanted to visit a museum virtually or explore its collections right from your home computer? In this workshop, use an API, or Application Programming Interface, to learn more about a museum collection.
+[Installing a NuGet Package using the .NET CLI]()
 
-*add a screenshot of the completed project*
+## Video 3 : Creating and Publishing a NuGet Package
 
-![image of completed project](images/placeholder.png)
+In part 3 of this series, Product Manager Allie Barry demonstrates how to create, pack, and publish your own NuGet package to NuGet.org. 
 
-## Video 1 : Title
+[Creating and Publishing a NuGet Package]()
 
-Include abstract / title
+## Video 4 : NuGet Best Practices
 
-[link to video](link)
+In part 4 of this series, Product Manager Allie Barry discusses best practices to follow when using NuGet from both the perspective of the package author and the package consumer. Specifically, this video covers the most important pieces of metadata in a package that can signal quality and trustworthiness to a consumer. 
 
-## Video 2 : Title
+[NuGet Best Practices]()
 
-text
+## Video 5 : Package Security in NuGet
 
-link
+In part 5 of this series, Product Manager Allie Barry discusses some key security features available in NuGet that serve to protect users from malicious actors and safeguard their data. This video covers some of the main ways that attackers seek to reach targets through open-source software, as well as what the NuGet team is doing to prevent these attacks, and maintain the safest package sharing ecosystem available.
 
-## Video 3 : Title
-
-text
-
-link
-
-## Video 4 : Title
-
-text
-
-link
-
-## Video 5 : Title
-
-text
-
-link
-
-
-## Next steps
-
-*links to Microsoft Learn to further learning progress, and/or a path to certifications, if applicable*
+[Package Security in NuGet]()
 
 ## Feedback
 
-Be sure to give [feedback about this workshop](https://forms.office.com/r/MdhJWMZthR)!
+Be sure to give [feedback about this workshop](https://aka.ms/dotnet/beginnervideos/feedback)!
 
 [Code of Conduct](../CODE_OF_CONDUCT.md)
-
