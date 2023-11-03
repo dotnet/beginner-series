@@ -15,7 +15,7 @@
 
 Join James Montemagno as he takes you on a journey of building your first Hybrid applications across iOS, Android, Mac, Windows, and Web with ASP.NET Core, Blazor, Blazor Hybrid, and .NET MAUI!  You will learn how to use Blazor Hybrid to blend desktop and mobile native client frameworks with .NET and Blazor.
 
-| **Goal**              | *describe the goal of the workshop*                                    |
+| **Goal**              | Build your first Blazor Hybrid Application                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
 | **What will you learn**       | Introduction to Blazor Hybrid, .NET MAUI, and building hybrid apps with .NET across mobile, desktop, and web.                                      |
 | **What you'll need**          | [Visual Studio 2022 or Visual Studio Code with .NET MAUI Configured](https://learn.microsoft.com/dotnet/maui/get-started/installation)|
