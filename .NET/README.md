@@ -1,13 +1,13 @@
 # .NET for Beginners
 
-New to .NET? We know there’s a lot to explore – so join us on the .NET for Beginners series to understand .NET one step at a time. We’ll cover what .NET is, what you can build with it, how to get up and running within VS Code and how to enhance your projects with Nuget packages.
+New to .NET? We know there’s a lot to explore – so join us on the .NET for Beginners series to understand .NET one step at a time. We’ll cover what .NET is, what you can build with it, how to get up and running within VS Code and how to enhance your projects with NuGet packages.
 
 ## Video Series Link
 
 Full Series:
 YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/dotnet 
 
-Learn link:https://aka.ms/dotnet/beginnervideos/learn/dotnet
+Learn link: https://aka.ms/dotnet/beginnervideos/learn/dotnet
 
 Individual Video Links:
 1. [What is .NET?]()
@@ -24,13 +24,13 @@ In this video series, we will discuss .NET.
 | **What you'll need**          | [VS Code](code.visualstudio.com), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) |
 | **Number of videos**                  | 3                                                                |
 | **Follow along**                  | [sample code](sample_code)                                                                |
-| **Slides** | [Powerpoint](.NET%20Conf%20Beginner%20Series.pptx) 
+| **Slides** | [PowerPoint](.NET%20Conf%20Beginner%20Series.pptx) 
                          
 ## Video
 
 YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/dotnet 
 
-Learn link:https://aka.ms/dotnet/beginnervideos/learn/dotnet
+Learn link: https://aka.ms/dotnet/beginnervideos/learn/dotnet
 
 ## Pre-Learning
 
@@ -40,19 +40,19 @@ Learn link:https://aka.ms/dotnet/beginnervideos/learn/dotnet
 
 ## Video 1 : What is .NET?
 
-This video will cover some more high-level topics about .NET such as what it is, what languages and tools you can use with it, what you can build with it, and more!
+This video will cover some high-level topics about .NET such as what it is, what languages and tools you can use with it, what you can build with it, and more!
 
 [link to video](link)
 
 ## Video 2 : Installing & Getting Started with .NET in VS Code
 
-In this tutorial we will install .NET, install VS Code, install C# Dev Kit, and create our first C# Console Application!
+In this tutorial, we'll install .NET, install VS Code, install C# Dev Kit, and create our first C# Console Application!
 
 link
 
-## Video 3 : Adding a Nuget Package
+## Video 3 : Adding a NuGet Package
 
-Learn how to add a Nuget package to your C# project in VS Code with 3 clicks!
+Learn how to add a NuGet package to your C# project in VS Code with 3 clicks!
 
 link
 

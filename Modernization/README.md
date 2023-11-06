@@ -1,6 +1,6 @@
 # Upgrade Applications with .NET for Beginners
 
-New .NET version is released every year and now it is very easy to switch to the latest version, no matter what target .NET framework you are currently using. In this series you will learn how to upgrade your applications to the latest .NET with existing tooling from Microsoft. We will cover upgrades for different types of applications using both Visual Studio extension and CLI tool.
+A new .NET version is released every year and now it's very easy to switch to the latest version, no matter what version of .NET you're targeting. In this series, you'll learn how to upgrade your applications to the latest .NET with existing tooling from Microsoft. We'll cover upgrades for different types of applications using both the Visual Studio extension and the CLI tool.
 
 ## Video Series Link
 
@@ -31,14 +31,14 @@ In this video series, we will discuss modernization and upgrading your .NET appl
 | **Number of videos**                  | 9                                                                |
 | **Follow along**                  | *link to starter code*                                                                |
 | **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
-| **Slides** | [Powerpoint](slides.pptx) 
+| **Slides** | [PowerPoint](slides.pptx) 
                          
 ## Video
 
 Full Series:
 YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/modernization 
 
-Learn link:https://aka.ms/dotnet/beginnervideos/learn/modernization
+Learn link: https://aka.ms/dotnet/beginnervideos/learn/modernization
 
 ## Recommended Resources
 
@@ -47,7 +47,7 @@ Documentation: https://learn.microsoft.com/en-us/dotnet/core/porting/upgrade-ass
 
 ## Video 1 : What .NET platform to choose
 
-This video will cover existing .NET platforms, what are the differences between them and what should you choose for your applications.
+This video will cover existing .NET platforms, what are the differences between them and what you should choose for your applications.
 
 [What .NET platform to choose](https://youtu.be/T256mR360aM)
 
@@ -83,13 +83,13 @@ In this video we will demonstrate how to upgrade a sample WinForms or WPF applic
 
 ## Video 7 : Upgrading ASP.NET apps
 
-In this video we will demonstrate how to an ASP.NET application from bot .NET Framework and .NET Core and later.
+In this video, we'll demonstrate how to upgrade an ASP.NET application from .NET Framework to .NET Core and later.
 
 [Upgrading ASP.NET apps](https://youtu.be/j1kqZW07v6Y)
 
 ## Video 8 : Upgrading Azure Functions
 
-In this video we will demonstrate how to upgrade Azure Functions to the latest .NET and the latest version of Azure Functions.
+In this video, we'll demonstrate how to upgrade Azure Functions to the latest .NET and the latest version of Azure Functions.
 
 [Upgrading Azure Functions](https://youtu.be/iW9h5INroZg)
 

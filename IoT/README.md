@@ -10,7 +10,7 @@ YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/iot
 Learn link: https://aka.ms/dotnet/beginnervideos/learn/iot
 
 Individual Video Links:
-1. [Intro to .NET Iot with Single Board Computers and Raspberry Pi](https://youtu.be/SV08PVtAHrc?si=MWtC36lmGQ1Y_4gY)
+1. [Intro to .NET IoT with Single Board Computers and Raspberry Pi](https://youtu.be/SV08PVtAHrc?si=MWtC36lmGQ1Y_4gY)
 1. [Deploy .NET apps to single board computers and debug remotely](https://youtu.be/bJSSU5YuHKg?si=SlCVSunIfy2fypOH)
 1. [General Purpose Input/Output GPIO output control devices with .NET](https://youtu.be/VbuBpRrvYeY?si=oCXy4RWh-xOeNh-4)
 1. [General Purpose Input/Output: Read input with GPIO and .NET](https://youtu.be/e_2DCBpwgWw?si=liEAq_5qCqxbs4VD)
@@ -39,20 +39,20 @@ Learn link: https://aka.ms/dotnet/beginnervideos/learn/iot
 ## Resources
 
 Links:
-- .NET Internet of Things Libraries Overview: https://learn.microsoft.com/dotnet/io... 
-- Raspberry Pi Sense HAT Quickstart: https://learn.microsoft.com/dotnet/io... 
-- .NET IoT Libraries on GitHub: https://github.com/dotnet/iot
-- Raspberry Pi documentation: https://www.raspberrypi.com/documenta...
-- .NET IoT Libraries documentation https://learn.microsoft.com/dotnet/iot
+- [.NET Internet of Things Libraries Overview](https://learn.microsoft.com/dotnet/iot/intro)
+- [Raspberry Pi Sense HAT Quickstart](https://learn.microsoft.com/dotnet/iot/quickstarts/sensehat)
+- [.NET IoT Libraries on GitHub](https://github.com/dotnet/iot)
+- [Raspberry Pi documentation](https://www.raspberrypi.com/documentation/)
+- [.NET IoT Libraries documentation](https://learn.microsoft.com/dotnet/iot/)
 - More .NET Beginner Series Videos: https://dot.net/videos 
   
-## Video 1 : Intro to .NET Iot with Single Board Computers and Raspberry Pi
+## Video 1 : Intro to .NET IoT with Single Board Computers and Raspberry Pi
 
 In this video series, Microsoft Sr. Content Developer Cam Soper explores the use of .NET on common single-board computers, such as Raspberry Pi, Orange Pi, and Hummingboard. The series focus is using the .NET IoT Libraries to control LEDs, relays, sensors, displays, and more. In this introductory video, Cam shows how to prepare a Raspberry Pi for use with .NET, where to find the documentation, and how to run a quick demo using a Raspberry Pi Sense HAT.
 
 Remember, even if you don't have a Raspberry Pi, most of the concepts in this series can be applied to other single board computers!
 
-[Intro to .NET Iot with Single Board Computers and Raspberry Pi](https://youtu.be/SV08PVtAHrc?si=MWtC36lmGQ1Y_4gY)
+[Intro to .NET IoT with Single Board Computers and Raspberry Pi](https://youtu.be/SV08PVtAHrc?si=MWtC36lmGQ1Y_4gY)
 
 ## Video 2 : Deploy .NET apps to single board computers and debug remotely
 

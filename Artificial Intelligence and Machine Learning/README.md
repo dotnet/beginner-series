@@ -27,7 +27,7 @@ Individual Video Links:
 
 ## Overview
 
-In this video series, we will discuss Artificial Intelligence and Machine Learning.
+In this video series, we'll discuss Artificial Intelligence and Machine Learning.
 
 | **Goal**              | Acquire the skills to craft intelligent, responsive applications                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
@@ -42,7 +42,7 @@ In this video series, we will discuss Artificial Intelligence and Machine Learni
 Full Series:
 YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/ai 
 
-Learn link:https://aka.ms/dotnet/beginnervideos/learn/ai
+Learn link: https://aka.ms/dotnet/beginnervideos/learn/ai
 
 ## Additional Resources
 
