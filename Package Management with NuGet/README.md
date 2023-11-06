@@ -26,7 +26,7 @@ In this video series, we will discuss .NET Package Management with NuGet.
 | **What you'll need**          | [VS Code](code.visualstudio.com), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) |
 | **Number of videos**                  | 5                                                                |
 | **Follow along**                  | [sample code](sample-code)                                                                |
-| **Slides** | [Powerpoint](slides.pptx) 
+| **Slides** | [PowerPoint](slides.pptx) 
                          
 ## Video
 
@@ -65,7 +65,7 @@ In part 4 of this series, Product Manager Allie Barry discusses best practices t
 
 ## Video 5 : Package Security in NuGet
 
-In part 5 of this series, Product Manager Allie Barry discusses some key security features available in NuGet that serve to protect users from malicious actors and safeguard their data. This video covers some of the main ways that attackers seek to reach targets through open-source software, as well as what the NuGet team is doing to prevent these attacks, and maintain the safest package sharing ecosystem available.
+In part 5 of this series, Product Manager Allie Barry discusses some key security features available in NuGet that serve to protect users from malicious actors and safeguard their data. This video covers some of the main ways that attackers seek to reach targets through open-source software, as well as what the NuGet team is doing to prevent these attacks and maintain the safest package sharing ecosystem available.
 
 [Package Security in NuGet]()
 

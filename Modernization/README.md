@@ -95,7 +95,7 @@ In this video, we'll demonstrate how to upgrade Azure Functions to the latest .N
 
 ## Video 9 : Upgrading Xamarin to .NET MAUI
 
-In this video we will demonstrate how to migrate from Xamarin.Forms application to .NET MAUI.
+In this video, we'll demonstrate how to migrate from Xamarin.Forms application to .NET MAUI.
 
 1. [Upgrading Xamarin to .NET MAUI](https://youtu.be/14woSLxs1jo)
 
