@@ -54,16 +54,15 @@ Learn link:
 
 Some of the samples require Azure Services so you'll need to set the following environment variables:
 
-- Azure OpenAI -
+- Azure OpenAI - See the [retrieve key and endpoint guide](https://learn.microsoft.com/azure/ai-services/openai/tutorials/embeddings?tabs=python%2Ccommand-line#retrieve-key-and-endpoint) for more details.
     - **AOAI_DEPLOYMENTID**: The name of your GPT model deployment.
     - **AOAI_EMBEDDINGS_DEPLOYMENTID**: The name of your embedding model deployment.
     - **AOAI_ENDPOINT**: Your Azure OpenAI endpoint
-    - **AOAI_KEY**: Your Azure openAI Key
-- Azure Document Intelligence
+    - **AOAI_KEY**: Your Azure OpenAI Key
+- Azure Document Intelligence - See the [get endpoint URL and keys guide](https://learn.microsoft.com/azure/ai-services/document-intelligence/create-document-intelligence-resource?view=doc-intel-3.1.0#get-endpoint-url-and-keys) for more details.
     - **DOCUMENT_KEY**: Your Document Intelligence Key
     - **DOCUMENT_ENDPOINT**: Your Document Intelligence Endpoint
-
-- Azure Custom Vision - See the [create environment variables guide](https://learn.microsoft.com/azure/ai-services/custom-vision-service/quickstarts/image-classification?tabs=linux%2Cvisual-studio&pivots=programming-language-csharp#create-environment-variables) for more detalis on how to get these values. 
+- Azure Custom Vision - See the [create environment variables guide](https://learn.microsoft.com/azure/ai-services/custom-vision-service/quickstarts/image-classification?tabs=linux%2Cvisual-studio&pivots=programming-language-csharp#create-environment-variables) for more details on how to get these values. 
     - **VISION_TRAINING_KEY**: Your Azure Custom Vision training resource key
     - **VISION_TRAINING_ENDPOINT**: Your Azure Custom Vision training endpoint.
     - **VISION_PREDICTION_KEY**: The key for your Azure Custom Vision predicion resource
@@ -72,7 +71,7 @@ Some of the samples require Azure Services so you'll need to set the following e
 
 ### Codespaces
 
-1. Open [*.devcontainer/ai/aimldevcontainer.json*](../.devcontainer/aimldevcontainer.json)
+1. Open [*.devcontainer/ai/devcontainer.json*](../.devcontainer/ai/devcontainer.json)
 1. Replace the blank environment variable values in the `containerEnv` section with your own.
 1. Save your changes
 1. Rebuild the container
