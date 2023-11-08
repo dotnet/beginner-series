@@ -72,7 +72,7 @@ Some of the samples require Azure Services so you'll need to set the following e
 
 ### Codespaces
 
-1. Open [*.devcontainer/aimldevcontainer.json*](../.devcontainer/aimldevcontainer.json)
+1. Open [*.devcontainer/ai/aimldevcontainer.json*](../.devcontainer/aimldevcontainer.json)
 1. Replace the blank environment variable values in the `containerEnv` section with your own.
 1. Save your changes
 1. Rebuild the container
