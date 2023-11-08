@@ -11,10 +11,9 @@ In this video series, we will discuss Machine Learning and AI for .NET.
 | **Goal**              | Learn how to get started building AI applications             |
 | ----------------------------- | --------------------------------------------------------------------- |
 | **What will you learn**       | Azure OpenAI, Azure AI Services, ML.NET                                         |
-| **What you'll need**          |  |
+| **What you'll need**          | [Prerequisites](#prerequisites) |
 | **Number of videos**                  | 12                                                                |
-| **Follow along**                  | *link to starter code*                                                                |
-| **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
+| **Follow along**                  | [Code](./sample-code/)                                                                |
 | **Slides** | [Powerpoint](./DotNet_Beginner_ML_Series_2023.pptx) |
                          
 ## Video
@@ -34,6 +33,10 @@ Learn link:
 
 - **Azure Account** - If you're new to Azure, get an [Azure account for free](https://azure.microsoft.com/free/students/) and you'll get some free Azure credits to get started.
 - **Azure subscription with access enabled for the Azure OpenAI service** - [You can request access](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai). 
+    
+    > **IMPORTANT**
+    > You'll also need two model deployments. See the create a resource guide for more details on [deploying models](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal#deploy-a-model). These samples use [GPT 3.5](https://learn.microsoft.com/azure/ai-services/openai/concepts/models#gpt-35) and [embedding](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) models. For more details, see the [Azure OpenAI model guide](https://learn.microsoft.com/azure/ai-services/openai/concepts/models).   
+
 - [**Azure Document Intelligence resource**](https://learn.microsoft.com/azure/ai-services/document-intelligence/create-document-intelligence-resource?view=doc-intel-2.1.0)
 - [**Azure Custom Vision resource**](https://portal.azure.com/?microsoft_azure_marketplace_ItemHideKey=microsoft_azure_cognitiveservices_customvision#create/Microsoft.CognitiveServicesCustomVision)
 - [**GitHub Account**](https://github.com/join)
@@ -42,6 +45,39 @@ Learn link:
 - [**Visual Studio Code**](https://code.visualstudio.com/Download)
     - [Polyglot Notebooks extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
 - [**(Optional) ML.NET CLI**](https://learn.microsoft.com/dotnet/machine-learning/how-to-guides/install-ml-net-cli?tabs=linux)
+
+## Quick Start
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dotnet/beginner-series)
+
+## Setup
+
+Some of the samples require Azure Services so you'll need to set the following environment variables:
+
+- Azure OpenAI -
+    - **AOAI_DEPLOYMENTID**: The name of your GPT model deployment.
+    - **AOAI_EMBEDDINGS_DEPLOYMENTID**: The name of your embedding model deployment.
+    - **AOAI_ENDPOINT**: Your Azure OpenAI endpoint
+    - **AOAI_KEY**: Your Azure openAI Key
+- Azure Document Intelligence
+    - **DOCUMENT_KEY**: Your Document Intelligence Key
+    - **DOCUMENT_ENDPOINT**: Your Document Intelligence Endpoint
+
+- Azure Custom Vision - See the [create environment variables guide](https://learn.microsoft.com/azure/ai-services/custom-vision-service/quickstarts/image-classification?tabs=linux%2Cvisual-studio&pivots=programming-language-csharp#create-environment-variables) for more detalis on how to get these values. 
+    - **VISION_TRAINING_KEY**: Your Azure Custom Vision training resource key
+    - **VISION_TRAINING_ENDPOINT**: Your Azure Custom Vision training endpoint.
+    - **VISION_PREDICTION_KEY**: The key for your Azure Custom Vision predicion resource
+    - **VISION_PREDICTION_ENDPOINT**: Your Azure Custom Vision prediction resource key.
+    - **VISION_PREDICTION_RESOURCE_ID**: The resource ID for your prediction resource.
+
+### Codespaces
+
+1. Open [*.devcontainer/aimldevcontainer.json*](../.devcontainer/aimldevcontainer.json)
+1. Replace the blank environment variable values in the `containerEnv` section with your own.
+1. Save your changes
+1. Rebuild the container
+    1. Open the command palette. In the menu bar, select **View > Command Palette**.
+    1. Enter the following command into the command palette **>Codespaces: Rebuild Container**.
 
 ## What students will learn
 
