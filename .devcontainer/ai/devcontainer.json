@@ -28,5 +28,10 @@
         "VISION_PREDICTION_KEY": "",
         "VISION_PREDICTION_ENDPOINT": "",
         "VISION_PREDICTION_RESOURCE_ID": ""
-    }
+    },
+    "postCreateCommand": [
+        "cd ./Artificial Intelligence and Machine Learning/sample-code/scripts",
+        "chmod +x download-data.sh",
+        "./download-data.sh"
+    ]
 }
