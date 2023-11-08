@@ -1,0 +1,8 @@
+﻿@GitHubIssuesWebApi_HostAddress = https://ghissuesmodel.whitecoast-fe775cb3.southcentralus.azurecontainerapps.io
+
+Post {{GitHubIssuesWebApi_HostAddress}}/predict
+Content-Type application/json
+
+{
+  "title": "Directory.GetFiles should load files from remote source"
+}

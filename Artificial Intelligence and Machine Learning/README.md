@@ -6,16 +6,16 @@
 
 ## Overview
 
-In this video series, we will discuss *insert your topic*.
+In this video series, we will discuss Machine Learning and AI for .NET.
 
-| **Goal**              | *describe the goal of the workshop*                                    |
+| **Goal**              | Learn how to get started building AI applications             |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *describe your learning goals*                                        |
-| **What you'll need**          | *link all the necessary tooling, subscriptions, and downloads needed* |
-| **Number of videos**                  | *specify the number of videos*                                                                |
+| **What will you learn**       | Azure OpenAI, Azure AI Services, ML.NET                                         |
+| **What you'll need**          |  |
+| **Number of videos**                  | 12                                                                |
 | **Follow along**                  | *link to starter code*                                                                |
 | **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
-| **Slides** | [Powerpoint](slides.pptx) 
+| **Slides** | [Powerpoint](./DotNet_Beginner_ML_Series_2023.pptx) |
                          
 ## Video
 
@@ -27,11 +27,18 @@ Learn link:
 
 ## Pre-Learning
 
-*add pre-learning resources if applicable*
+C#
 
 ## Prerequisites
 
-*any installations that will be helpful, any hardware or software needed*
+- **Azure Account** - If you're new to Azure, get an [Azure account for free](https://azure.microsoft.com/free/students/) and you'll get some free Azure credits to get started.
+- **Azure subscription with access enabled for the Azure OpenAI service** - [You can request access](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai). 
+- [GitHub Account](https://github.com/join)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
+    - [Model Builder Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=MLNET.ModelBuilder2022)
+- [Visual Studio Code](https://code.visualstudio.com/Download)
+    - [Polyglot Notebooks extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
+- [(Optional) ML.NET CLI](https://learn.microsoft.com/dotnet/machine-learning/how-to-guides/install-ml-net-cli?tabs=linux)
 
 ## What students will learn
 
