@@ -33,12 +33,14 @@ C#
 
 - **Azure Account** - If you're new to Azure, get an [Azure account for free](https://azure.microsoft.com/free/students/) and you'll get some free Azure credits to get started.
 - **Azure subscription with access enabled for the Azure OpenAI service** - [You can request access](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai). 
-- [GitHub Account](https://github.com/join)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
+- [**Azure Document Intelligence resource**](https://learn.microsoft.com/azure/ai-services/document-intelligence/create-document-intelligence-resource?view=doc-intel-2.1.0)
+- [**Azure Custom Vision resource**](https://portal.azure.com/?microsoft_azure_marketplace_ItemHideKey=microsoft_azure_cognitiveservices_customvision#create/Microsoft.CognitiveServicesCustomVision)
+- [**GitHub Account**](https://github.com/join)
+- [**Visual Studio 2022**](https://visualstudio.microsoft.com/downloads/)
     - [Model Builder Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=MLNET.ModelBuilder2022)
-- [Visual Studio Code](https://code.visualstudio.com/Download)
+- [**Visual Studio Code**](https://code.visualstudio.com/Download)
     - [Polyglot Notebooks extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
-- [(Optional) ML.NET CLI](https://learn.microsoft.com/dotnet/machine-learning/how-to-guides/install-ml-net-cli?tabs=linux)
+- [**(Optional) ML.NET CLI**](https://learn.microsoft.com/dotnet/machine-learning/how-to-guides/install-ml-net-cli?tabs=linux)
 
 ## What students will learn
 
