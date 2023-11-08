@@ -27,7 +27,8 @@ Learn link:
 
 ## Pre-Learning
 
-C#
+- C#
+- ASP.NET Core
 
 ## Prerequisites
 
@@ -44,41 +45,79 @@ C#
 
 ## What students will learn
 
-*In this area, describe the scenario and intended solution, paraphrasing what is in the module or creating a brief description here*
-
-Example: Have you ever wanted to visit a museum virtually or explore its collections right from your home computer? In this workshop, use an API, or Application Programming Interface, to learn more about a museum collection.
-
-*add a screenshot of the completed project*
+Calling all .NET developers! Dive headfirst into the future with our .NET Machine Learning and AI for Beginners Series. Discover the seamless integration of Artificial Intelligence (AI) and Machine Learning (ML) into your .NET applications, unlocking a world of possibilities. From grasping foundational concepts to hands-on sessions with ChatGPT, Azure AI Services, and ML.NET, you'll acquire the skills to craft intelligent, responsive applications. Join us on this journey and revolutionize your .NET applications using the limitless potential of AI and ML!
 
 ![image of completed project](images/placeholder.png)
 
-## Video 1 : Title
+## Video 1 : Introduction
 
-Include abstract / title
+In this video, we provide an introduction and overview of the topics that will be covered throughout the series.
 
 [link to video](link)
 
-## Video 2 : Title
+## Video 2 : What is AI and ML?
 
-text
-
-link
-
-## Video 3 : Title
-
-text
+In this video, we go over what AI and Machine Learning are, what you can do with AI and ML, and how you as a .NET developer can get started using AI and Machine Learning in your applications.
 
 link
 
-## Video 4 : Title
+## Video 3 : Introduction to ChatGPT
 
-text
+In this video, we discuss what ChatGPT is, define ChatGPT chat roles, learn about the role of chat and message history, and get started using ChatGPT in .NET.
 
 link
 
-## Video 5 : Title
+## Video 4 : Prompts & Prompt Engineering
 
-text
+In this video, we learn what prompts and prompt enginnering are, provide an overview of the different parts of a prompt, give tips for improving your prompts, and show these techniques in action.
+
+link
+
+## Video 5 : Adding context to your prompts
+
+In this video, we go over how you can use your data to provide more context to language models like ChatGPT to help augment and provide more relevant responses. We also introduce a pattern known as Retrieval Augmented Generation (RAG).
+
+link
+
+## Video 6 : Introduction to ChatGPT Plugins
+
+In this video, we introduce what ChatGPT Plugins are and how they can be used to extend the functionality of language models. We then show how you can get started building and testing ChatGPT Plugins using .NET.
+
+link
+
+## Video 7 : Introduction to Azure AI Services
+
+In this video, we introduce Azure AI Services, give some examples of what you can use them for, and then show how you can get started using them in your AI applications.
+
+link
+
+## Video 8 : Training custom models with Azure AI Services
+
+In this video, we go over why you might want to train your own custom AI models and then show how to do so using Azure AI Services and .NET.
+
+link
+
+## Video 9 : Introduction to ML.NET
+
+In this video, we introduce ML.NET, an open-source, cross-platform ML framework for .NET. We then show what you can do with ML.NET and how it integrates with the rest of the .NET ML ecosystem.
+
+link
+
+## Video 10 : Introduction to AutoML
+
+In this video, we introduced Automated Machine Learning (AutoML). We'll show how AutoML can help automate repetitive tasks in the machine learning model development workflow and how you can get started using AutoML techniques in .NET.
+
+link
+
+## Video 11 : Train your own custom ML model using ML.NET
+
+In this video, we introduce Model Builder, a Visual Studio extension for training custom ML models using ML.NET. We then show how to get started training your own custom ML model using using Model Builder.
+
+link
+
+## Video 12 : Deploy your custom ML.NET model
+
+In this video, we'll show how you can use Model Builder to generate an application that consumes your custom ML model. We'll then show how you can test your model locally and deploy it to Azure.
 
 link
 
