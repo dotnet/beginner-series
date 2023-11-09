@@ -1,0 +1,66 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    volumes:
+      - ../..:/workspace:cached
+      - ./data/persisted-data/.aspnet:/root/.aspnet/
+
+
+    # Overrides default command so things don't shut down after the process ends.
+    command: sleep infinity
+
+    # network_mode: service:sqlserver
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    restart: unless-stopped
+    environment: 
+      SA_PASSWORD: P@ssw0rd
+      ACCEPT_EULA: Y
+
+    # Add "forwardPorts": ["1433"] to **devcontainer.json** to forward MSSQL locally.
+    # (Adding the "ports" property to this file will not forward from a Codespace.)
+
+  # postgres:
+  #   image: postgres
+  #   restart: always
+  #   environment:
+  #     POSTGRES_PASSWORD: "P@ssw0rd"
+  #   network_mode: service:db
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
+
+  neo:
+      # The image to use
+      image: neo4j:latest
+      # map the ports so we can check the db server is up
+      ports: 
+        - 7474:7474
+        - 7687:7687
+      # mounting a named volume to the container to track db data
+      volumes:
+        - ./neo4j/data:/data/
+        #- ./neo4j/conf:/conf/
+      env_file:
+        - ./neo4j/.env.neo4j
+

@@ -15,7 +15,7 @@
 			"settings": {},
 			"extensions": [
 				"ms-dotnettools.csdevkit",
-        "ms-dotnettools.dotnet-interactive-vscode"
+        		"ms-dotnettools.dotnet-interactive-vscode"
 			]
 		}
 	}

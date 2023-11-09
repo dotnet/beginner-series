@@ -1,0 +1,43 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.224.3/containers/dotnet-mssql
+{
+	"name": "NET for Beginners-Data",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			// Set *default* container specific settings.json values on container create.
+			"settings": {
+				"mssql.connections": [
+					{
+						"server": "sqlserver,1433",
+						"database": "",
+						"authenticationType": "SqlLogin",
+						"user": "sa",
+						"password": "P@ssw0rd",
+						"emptyPasswordInput": false,
+						"savePassword": true,
+						"profileName": "sqlserver",
+						"encrypt": false
+					}
+				]
+			},
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"ms-dotnettools.csharp",
+				"ms-mssql.mssql"
+			]
+		}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+
+	],
+	
+	//"postCreateCommand": "bash ./.devcontainer/data/scripts/postCreateCommand.sh 'P@ssw0rd' './.devcontainer/data/data/' './.devcontainer/data/scripts/'",
+	"features": {
+		// "azure-cli": "latest"
+	}
+}

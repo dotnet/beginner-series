@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+## .NET Beginner Series additions to .gitignore
+
+# neo4j
+.devcontainer/data/neo4j/
+
 # User-specific files
 *.rsuser
 *.suo
