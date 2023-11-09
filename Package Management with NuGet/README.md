@@ -10,11 +10,11 @@ YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/nuget
 Learn link: https://aka.ms/dotnet/beginnervideos/learn/nuget
 
 Individual Video Links:
-1. [Introduction to .NET Package Management using NuGet](link)
-1. [Installing a NuGet Package using the .NET CLI]()
-1. [Creating and Publishing a NuGet Package]()
-1. [NuGet Best Practices]()
-1. [Package Security in NuGet]()
+1. [Introduction to .NET Package Management using NuGet](https://youtu.be/N_SBf3BRp5A)
+2. [Installing a NuGet Package using the .NET CLI](https://youtu.be/ElTKNkN2WRk)
+3. [Creating and Publishing a NuGet Package](https://youtu.be/E0rPteTWxYQ)
+4. [NuGet Best Practices](https://youtu.be/R2Smy3bi_rM)
+5. [Package Security in NuGet](https://youtu.be/nddfk2bTQUo)
    
 ## Overview
 
@@ -43,31 +43,31 @@ Learn link: https://aka.ms/dotnet/beginnervideos/learn/nuget
 
 In this introductory video, Allie gives a quick introduction to package management, as well as an overview of how NuGet works.
 
-[Introduction to .NET Package Management using NuGet](link)
+[Introduction to .NET Package Management using NuGet](https://youtu.be/N_SBf3BRp5A)
 
 ## Video 2 : Installing a NuGet Package using the .NET CLI
 
 In part 2 of this series, Product Manager Allie Barry demonstrates how to install and use a NuGet package in your projects using the .NET CLI. 
 
-[Installing a NuGet Package using the .NET CLI]()
+[Installing a NuGet Package using the .NET CLI](https://youtu.be/ElTKNkN2WRk)
 
 ## Video 3 : Creating and Publishing a NuGet Package
 
 In part 3 of this series, Product Manager Allie Barry demonstrates how to create, pack, and publish your own NuGet package to NuGet.org. 
 
-[Creating and Publishing a NuGet Package]()
+[Creating and Publishing a NuGet Package](https://youtu.be/E0rPteTWxYQ)
 
 ## Video 4 : NuGet Best Practices
 
 In part 4 of this series, Product Manager Allie Barry discusses best practices to follow when using NuGet from both the perspective of the package author and the package consumer. Specifically, this video covers the most important pieces of metadata in a package that can signal quality and trustworthiness to a consumer. 
 
-[NuGet Best Practices]()
+[NuGet Best Practices](https://youtu.be/R2Smy3bi_rM)
 
 ## Video 5 : Package Security in NuGet
 
 In part 5 of this series, Product Manager Allie Barry discusses some key security features available in NuGet that serve to protect users from malicious actors and safeguard their data. This video covers some of the main ways that attackers seek to reach targets through open-source software, as well as what the NuGet team is doing to prevent these attacks and maintain the safest package sharing ecosystem available.
 
-[Package Security in NuGet]()
+[Package Security in NuGet](https://youtu.be/nddfk2bTQUo)
 
 ## Feedback
 

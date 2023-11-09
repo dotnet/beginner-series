@@ -10,9 +10,9 @@ YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/dotnet
 Learn link: https://aka.ms/dotnet/beginnervideos/learn/dotnet
 
 Individual Video Links:
-1. [What is .NET?]()
-1. [Installing & Getting Started with .NET in VS Code]()
-1. [Adding a NuGet Package]() 
+1. [What is .NET?](https://youtu.be/6BcPIvVfVAw)
+1. [Installing & Getting Started with .NET in VS Code](https://youtu.be/uytNCXw9dME)
+1. [Adding a NuGet Package](https://youtu.be/j3WgStwhl_k) 
 
 ## Overview
 
@@ -42,19 +42,19 @@ Learn link: https://aka.ms/dotnet/beginnervideos/learn/dotnet
 
 This video will cover some high-level topics about .NET such as what it is, what languages and tools you can use with it, what you can build with it, and more!
 
-[link to video](link)
+[What is .NET?](https://youtu.be/6BcPIvVfVAw)
 
 ## Video 2 : Installing & Getting Started with .NET in VS Code
 
 In this tutorial, we'll install .NET, install VS Code, install C# Dev Kit, and create our first C# Console Application!
 
-link
+[Installing & Getting Started with .NET in VS Code](https://youtu.be/uytNCXw9dME)
 
 ## Video 3 : Adding a NuGet Package
 
 Learn how to add a NuGet package to your C# project in VS Code with 3 clicks!
 
-link
+[Adding a NuGet Package](https://youtu.be/j3WgStwhl_k)
 
 ## Feedback
 
