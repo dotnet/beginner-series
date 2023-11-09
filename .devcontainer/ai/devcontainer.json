@@ -1,0 +1,37 @@
+{
+    "name": ".NET ML AI Environment",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/azure-cli:1.1.0": {},
+        "ghcr.io/devcontainers/features/github-cli:1.0.9": {}        
+    },
+    "customizations":{
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.dotnet-interactive-vscode",
+                "ms-azuretools.azure-dev",
+                "ms-vscode.azurecli"                               
+            ]
+        }
+    },
+    "containerEnv": {        
+        "AOAI_DEPLOYMENTID": "",
+        "AOAI_EMBEDDINGS_DEPLOYMENTID": "",
+        "AOAI_ENDPOINT": "",
+        "AOAI_KEY": "",
+        "DOCUMENT_KEY": "",
+        "DOCUMENT_ENDPOINT": "",
+        "VISION_TRAINING_KEY": "",
+        "VISION_TRAINING_ENDPOINT": "",
+        "VISION_PREDICTION_KEY": "",
+        "VISION_PREDICTION_ENDPOINT": "",
+        "VISION_PREDICTION_RESOURCE_ID": ""
+    },
+    "postCreateCommand": [
+        "cd ./Artificial Intelligence and Machine Learning/sample-code/scripts",
+        "chmod +x download-data.sh",
+        "./download-data.sh"
+    ]
+}

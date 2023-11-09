@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Contoso Product Search",
+  "name_for_model": "contosoproducts",
+  "description_for_human": "Search through Contoso's wide range of outdoor and recreational products.",
+  "description_for_model": "Plugin for searching through Contoso's outdoor and recreational products. Use it whenever a user asks about products or activities related to camping, hiking, climbing or camping.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5290/swagger/v1/swagger.json",
+    "is_user_authenticated": "false"
+  },
+  "logo_url": "http://localhost:5290/logo.png",
+  "contact_email": "noreply@microsoft.com",
+  "legal_info_url": "https://www.microsoft.com/en-us/legal/"
+}
