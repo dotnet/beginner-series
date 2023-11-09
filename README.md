@@ -10,9 +10,17 @@ Navigate through the folder associated with the video series that you're interes
 
 # Series
 
-|     |                       Topic                       | Learning Objectives                                                                                                                 |                                                         Learning Materials                                                          |                                                         Video Link                                                          |
-| :-: | :------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-| 00  |                     Template                      |           Objective 1, Objective 2           | [Template materials](/template) | [template videos](https://aka.ms/dotnetvideos)
+|     |                       Topic                       |                                                         Learning Materials                                                          |                                                         Video Link                                                          |
+| :-: | :------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
+| 01  |                     C#                      |          [C# materials](C#) | [C# videos](https://aka.ms/dotnet/beginnervideos/youtube/csharp)
+| 02  |                     .NET                      |          [.NET materials](.NET) | [.NET videos](https://aka.ms/dotnet/beginnervideos/youtube/dotnet)
+| 03  |                     Artificial Intelligence & Machine Learning (AI/ML)                      |          [AI/ML materials](Artificial%20Intelligence%20and%20Machine%20Learning) | [AI/ML videos](https://aka.ms/dotnet/beginnervideos/youtube/ai)
+| 04  |                     Internet of Things (IoT)                      |          [IoT materials](IoT) | [IoT videos](https://aka.ms/dotnet/beginnervideos/youtube/iot)
+| 05  |                     Updating Applications (Modernization)                      |          [Updating Applications materials](Modernization) | [Updating Applications videos](https://aka.ms/dotnet/beginnervideos/youtube/modernization)
+| 06  |                     Blazor Hybrid                      |          [Blazor Hybrid materials](Blazor%20Hybrid) | [Blazor Hybrid videos](https://aka.ms/dotnet/beginnervideos/youtube/blazorhybrid)
+| 07  |                     Visual Studio                      |          [Visual Studio materials](Visual%20Studio) | [Visual Studio videos](https://aka.ms/dotnet/beginnervideos/youtube/visualstudio)
+| 08  |                     Package Management (NuGet)                      |          [Package Management materials](Package%20Management%20with%20NuGet) | [Package Management videos](https://aka.ms/dotnet/beginnervideos/youtube/nuget)
+| 09  |                     VS Code and the C# Dev Kit                      |          [VS Code materials](VS%20Code%20and%20the%20C#%20Dev%20Kit) | [VS Code videos](https://aka.ms/dotnet/beginnervideos/youtube/vscode)
 
 # New to C#?
 
