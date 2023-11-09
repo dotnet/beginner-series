@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     
     volumes:
-      - ../..:/workspace:cached
+      - ../../Data:/workspace:cached
       - ./data/persisted-data/.aspnet:/root/.aspnet/
 
 
@@ -62,5 +62,5 @@ services:
         - ./neo4j/data:/data/
         #- ./neo4j/conf:/conf/
       env_file:
-        - ./neo4j/.env.neo4j
+        - .env.neo4j
 

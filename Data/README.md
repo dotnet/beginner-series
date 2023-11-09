@@ -1,4 +1,4 @@
-# Work in progress
+# .NET for Beginners
 
 New to .NET? We know there’s a lot to explore – so join us on the .NET for Beginners series to understand .NET one step at a time. We’ll cover what .NET is, what you can build with it, how to get up and running within VS Code and how to enhance your projects with NuGet packages.
 
