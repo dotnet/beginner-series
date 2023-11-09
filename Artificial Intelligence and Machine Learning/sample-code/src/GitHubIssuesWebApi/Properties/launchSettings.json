@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "GitHubIssuesWebApi": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51014;http://localhost:51015"
+    }
+  }
+}
