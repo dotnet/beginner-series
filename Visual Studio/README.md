@@ -18,12 +18,12 @@ Individual Video Links:
 ## Overview
 
 
-| **Goal**              | *Get you ready to use Visual Studio for C# and .NET Development*                                    |
+| **Goal**              | Get you ready to use Visual Studio for C# and .NET Development                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *Use Visual Studio for editing, debugging, testing, navigating, collaborating and leveraging AI with your code.*                                        |
-| **What you'll need**          | *<ul><li>[Visual Studio 2022](https://visualstudio.microsoft.com/) Community Edition </li><li>(Optional) [GitHub Copilot Subscription](https://github.com/features/copilot?utm_source=vscom&utm_medium=hero&utm_campaign=cta-get#pricing)</li></ul>* |
-| **Number of videos**                  | *4*                                                                |
-| **Follow along**                  | *[Starter Code]("./sample-code)*                                                                |
+| **What will you learn**       | Use Visual Studio for editing, debugging, testing, navigating, collaborating and leveraging AI with your code.                                        |
+| **What you'll need**          | <ul><li>[Visual Studio 2022](https://visualstudio.microsoft.com/) Community Edition </li><li>(Optional) [GitHub Copilot Subscription](https://github.com/features/copilot?utm_source=vscom&utm_medium=hero&utm_campaign=cta-get#pricing)</li></ul> |
+| **Number of videos**                  | 4                                                                |
+| **Follow along**                  | [Starter Code]("./sample-code)                                                                |
 | **Slides** | [Powerpoint](git-and-github-slides.pptx) 
                          
 ## Video

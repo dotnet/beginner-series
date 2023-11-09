@@ -19,14 +19,14 @@ Individual Video Links:
 1. [How to Contribute to C# in VS Code](https://youtu.be/jF9ltwBK2Wk)
 
 
-| **Goal**              | *develop a C# app in VS Code using the C# Dev Kit extension*                                    |
+| **Goal**              | Develop a C# app in VS Code using the C# Dev Kit extension                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *What is VS Code and C# Dev Kit?, how to install VS Code and C#, project management, using C# productivity tools, debugging and testing C# apps in VS Code*                                        |
-| **What you'll need**          | *[VS Code](code.visualstudio.com), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks), [VS Subscription](https://visualstudio.microsoft.com/subscriptions/)* |
-| **Number of videos**                  | *7*                                                                |
-| **Follow along**                  | *[Codele Github Repo](https://github.com/leslierichardson95/codele-devkit-demo)*                                                                |
-| **Just want to try the app or see the solution?** | *[Codele repo (finalProduct branch)](https://github.com/leslierichardson95/codele-devkit-demo/tree/finalProduct) or view sample-code folder*                          |
-| **Slides** | [Powerpoint](VS Code and the C# Dev Kit/CSharp_DevKit_Series_Intro_Slides.pptx) 
+| **What will you learn**       | What is VS Code and C# Dev Kit?, how to install VS Code and C#, project management, using C# productivity tools, debugging and testing C# apps in VS Code                                        |
+| **What you'll need**          | [VS Code](code.visualstudio.com), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks), [VS Subscription](https://visualstudio.microsoft.com/subscriptions/) |
+| **Number of videos**                  | 7                                                                |
+| **Follow along**                  | [Codele Github Repo](https://github.com/leslierichardson95/codele-devkit-demo)                                                                |
+| **Just want to try the app or see the solution?** | [Codele repo (finalProduct branch)](https://github.com/leslierichardson95/codele-devkit-demo/tree/finalProduct) or view sample-code folder                          |
+| **Slides** | [Powerpoint](CSharp_DevKit_Series_Intro_Slides.pptx) 
                          
 ## Video
 
