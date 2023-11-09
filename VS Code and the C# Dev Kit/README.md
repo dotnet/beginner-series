@@ -72,7 +72,7 @@ link
 
 ## Feedback
 
-Be sure to give [feedback about this workshop](https://forms.office.com/r/MdhJWMZthR)!
+Be sure to give [feedback about this workshop](https://aka.ms/dotnet/beginnervideos/feedback)!
 
 [Code of Conduct](../CODE_OF_CONDUCT.md)
 
