@@ -26,12 +26,10 @@ In this video series, we will discuss modernization and upgrading your .NET appl
 
 | **Goal**              | Learn how to upgrade your applications to the latest .NET with existing tooling from Microsoft                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *describe your learning goals*                                        |
-| **What you'll need**          | *link all the necessary tooling, subscriptions, and downloads needed* |
+| **What will you learn**       | Which .NET platform to choose and best practices for upgrading your apps                                        |
+| **What you'll need**          | [Upgrade Assistant website](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)  |
 | **Number of videos**                  | 9                                                                |
-| **Follow along**                  | *link to starter code*                                                                |
-| **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
-| **Slides** | [PowerPoint](slides.pptx) 
+| **Follow along**                  | *coming soon*                                                                |
                          
 ## Video
 

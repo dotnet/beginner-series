@@ -26,7 +26,7 @@ In this video series, we will discuss .NET Package Management with NuGet.
 | **What you'll need**          | [VS Code](code.visualstudio.com), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) |
 | **Number of videos**                  | 5                                                                |
 | **Follow along**                  | [sample code](sample-code)                                                                |
-| **Slides** | [PowerPoint](slides.pptx) 
+| **Slides** | [Intro](NuGet%20Intro%20Slides.pptx)<br />[Best Practices](Best%20Practices%20Slides.pptx)<br />[Security](Security%20Slides.pptx) 
                          
 ## Video
 
