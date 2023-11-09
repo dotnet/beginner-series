@@ -7,9 +7,9 @@ ARG NODE_VERSION="none"
 RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
 
 # Install SQL Tools: SQLPackage and sqlcmd
-#COPY scripts/installSQLtools.sh installSQLtools.sh
-#RUN bash ./installSQLtools.sh \
-#     && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts
+COPY scripts/installSQLtools.sh installSQLtools.sh
+RUN bash ./installSQLtools.sh \
+     && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
@@ -20,6 +20,3 @@ RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/
 
 # Add .NET global tools to path
 RUN echo "export PATH=\"$PATH:/root/.dotnet/tools\"" >> ~/.bashrc
-
-# Generate the dev cert
-RUN dotnet dev-certs https

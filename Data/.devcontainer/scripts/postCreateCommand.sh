@@ -11,10 +11,10 @@ do
     /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P $SApassword -d master -i testsqlconnection.sql > /dev/null
     if [ $? -eq 0 ]
     then
-        echo "SQL server ready"
+        echo "SQL Server ready!"
         break
     else
-        echo "Not ready yet..."
+        echo "SQL Server isn't ready yet..."
         sleep 1
     fi
 done

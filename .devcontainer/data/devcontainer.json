@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.224.3/containers/dotnet-mssql
 {
-	"name": "NET for Beginners-Data",
+	"name": "Accessing Data with .NET",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspace",
@@ -25,7 +25,8 @@
 			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"ms-dotnettools.csharp",
+				"ms-dotnettools.csdevkit",
+        		"ms-dotnettools.dotnet-interactive-vscode",
 				"ms-mssql.mssql"
 			]
 		}
@@ -36,7 +37,7 @@
 
 	],
 	
-	//"postCreateCommand": "bash ./.devcontainer/data/scripts/postCreateCommand.sh 'P@ssw0rd' './.devcontainer/data/data/' './.devcontainer/data/scripts/'",
+	"postCreateCommand": "bash .devcontainer/scripts/postCreateCommand.sh 'P@ssw0rd' '.devcontainer/dacpac/' '.devcontainer/scripts/'",
 	"features": {
 		// "azure-cli": "latest"
 	}

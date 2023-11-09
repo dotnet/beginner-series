@@ -7,8 +7,8 @@ services:
       dockerfile: Dockerfile
     
     volumes:
-      - ../..:/workspace:cached
-      - ./data/persisted-data/.aspnet:/root/.aspnet/
+      - ../../Data:/workspace:cached
+      - ./persisted-data/.aspnet:/root/.aspnet/
 
 
     # Overrides default command so things don't shut down after the process ends.
@@ -60,7 +60,6 @@ services:
       # mounting a named volume to the container to track db data
       volumes:
         - ./neo4j/data:/data/
-        #- ./neo4j/conf:/conf/
       env_file:
-        - ./neo4j/.env.neo4j
+        - .env.neo4j
 
