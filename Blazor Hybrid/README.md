@@ -1,5 +1,7 @@
 # Blazor Hybrid for Beginners
 
+Join James Montemagno as he takes you on a journey of building your first Hybrid applications across iOS, Android, Mac, Windows, and Web with ASP.NET Core, Blazor, Blazor Hybrid, and .NET MAUI!  You will learn how to use Blazor Hybrid to blend desktop and mobile native client frameworks with .NET and Blazor.
+
 ## Video Series Links
 
 1. [What is Blazor Hybrid?](https://youtu.be/oGimRuw2KVg)
@@ -12,8 +14,6 @@
 1. [Blazor Hybrid Recap & Resources](https://youtu.be/oOwGLrLmUUY)
 
 ## Overview
-
-Join James Montemagno as he takes you on a journey of building your first Hybrid applications across iOS, Android, Mac, Windows, and Web with ASP.NET Core, Blazor, Blazor Hybrid, and .NET MAUI!  You will learn how to use Blazor Hybrid to blend desktop and mobile native client frameworks with .NET and Blazor.
 
 | **Goal**              | Build your first Blazor Hybrid Application                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
