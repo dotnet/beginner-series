@@ -16,27 +16,27 @@ class Program
             DisplaySeparator();
 
             // Create operation
-            Console.WriteLine("About to create a new record for Buffalo Wings. Press Enter to proceed...");
+            Console.WriteLine("About to create a new record for Milkshake. Press Enter to proceed...");
             Console.ReadLine();
             string createQuery = "INSERT INTO Products (Name, Price) VALUES (@Name, @Price)";
             using (SqlCommand command = new SqlCommand(createQuery, connection))
             {
-                command.Parameters.AddWithValue("@Name", "Buffalo Wings");
+                command.Parameters.AddWithValue("@Name", "Milkshake");
                 command.Parameters.AddWithValue("@Price", 9.99);
                 command.ExecuteNonQuery();
             }
-            Console.WriteLine("New record for Buffalo Wings created.");
+            Console.WriteLine("New record for Milkshake created.");
             
             DisplayAllRecords(connection);
             DisplaySeparator();
 
             // Read operation
-            Console.WriteLine("About to read the record for Buffalo Wings. Press Enter to proceed...");
+            Console.WriteLine("About to read the record for Milkshake. Press Enter to proceed...");
             Console.ReadLine();
             string readQuery = "SELECT * FROM Products WHERE Name = @Name";
             using (SqlCommand command = new SqlCommand(readQuery, connection))
             {
-                command.Parameters.AddWithValue("@Name", "Buffalo Wings");
+                command.Parameters.AddWithValue("@Name", "Milkshake");
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())
@@ -49,30 +49,30 @@ class Program
             DisplaySeparator();
 
             // Update operation
-            Console.WriteLine("About to update the price of Buffalo Wings to 19.99. Press Enter to proceed...");
+            Console.WriteLine("About to update the price of Milkshake to 19.99. Press Enter to proceed...");
             Console.ReadLine();
             string updateQuery = "UPDATE Products SET Price = @Price WHERE Name = @Name";
             using (SqlCommand command = new SqlCommand(updateQuery, connection))
             {
-                command.Parameters.AddWithValue("@Name", "Buffalo Wings");
-                command.Parameters.AddWithValue("@Price", 19.99);
+                command.Parameters.AddWithValue("@Name", "Milkshake");
+                command.Parameters.AddWithValue("@Price", 4.99);
                 command.ExecuteNonQuery();
             }
-            Console.WriteLine("Record for Buffalo Wings updated.");
+            Console.WriteLine("Record for Milkshake updated.");
 
             DisplayAllRecords(connection);
             DisplaySeparator();
 
             // Delete operation
-            Console.WriteLine("About to delete the record for Buffalo Wings. Press Enter to proceed...");
+            Console.WriteLine("About to delete the record for Milkshake. Press Enter to proceed...");
             Console.ReadLine();
             string deleteQuery = "DELETE FROM Products WHERE Name = @Name";
             using (SqlCommand command = new SqlCommand(deleteQuery, connection))
             {
-                command.Parameters.AddWithValue("@Name", "Buffalo Wings");
+                command.Parameters.AddWithValue("@Name", "Milkshake");
                 command.ExecuteNonQuery();
             }
-            Console.WriteLine("Record for Buffalo Wings deleted.");
+            Console.WriteLine("Record for Milkshake deleted.");
             
             DisplayAllRecords(connection);
             DisplaySeparator();
