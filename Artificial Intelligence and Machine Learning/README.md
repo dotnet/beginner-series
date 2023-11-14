@@ -18,8 +18,7 @@ Individual Video Links:
 1. [Adding context to your prompts](https://youtu.be/cNtBT2CsVIk)
 1. [Introduction to ChatGPT Plugins](https://youtu.be/e3rO5W0q6q8)
 1. [Introduction to Azure AI Services](https://youtu.be/YPwjd5oEZMc)
-1. [Training custom models with Azure AI Services]
-(https://youtu.be/DbooMAyhfL8)
+1. [Training custom models with Azure AI Services](https://youtu.be/DbooMAyhfL8)
 1. [Introduction to ML.NET](https://youtu.be/wy4TyzGhXyw)
 1. [Introduction to AutoML](https://youtu.be/Wmybg70CW9A)
 1. [Train your own custom ML model using ML.NET](https://youtu.be/ji1hrvVfrhY)
@@ -27,19 +26,69 @@ Individual Video Links:
 
 ## Overview
 
-In this video series, we'll discuss Artificial Intelligence and Machine Learning.
+In this video series, we will discuss Machine Learning and AI for .NET.
 
-| **Goal**              | Acquire the skills to craft intelligent, responsive applications                                    |
+| **Goal**              | Learn how to get started building AI applications             |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | Introduction to AI/ML, ChatGPT, prompt engineering, Azure AI Services, ML.NET, and more!                                        |
-| **What you'll need**          |[VS Code](code.visualstudio.com), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) |
+| **What will you learn**       | Azure OpenAI, Azure AI Services, ML.NET                                         |
+| **What you'll need**          | [Prerequisites](#prerequisites) |
 | **Number of videos**                  | 12                                                                |
-| **Follow along**                  |[sample code](sample-code)                                                                |
-| **Slides** | [Powerpoint](slides.pptx) 
-                         
+| **Follow along**                  | [Code](./sample-code/)                                                                |
+| **Slides** | [Powerpoint](./DotNet_Beginner_ML_Series_2023.pptx) |
+
+## Prerequisites
+
+- **Azure Account** - If you're new to Azure, get an [Azure account for free](https://azure.microsoft.com/free/students/) and you'll get some free Azure credits to get started.
+- **Azure subscription with access enabled for the Azure OpenAI service** - [You can request access](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai). 
+    
+    > **IMPORTANT**
+    > You'll also need two model deployments. See the create a resource guide for more details on [deploying models](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal#deploy-a-model). These samples use [GPT 3.5](https://learn.microsoft.com/azure/ai-services/openai/concepts/models#gpt-35) and [embedding](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) models. For more details, see the [Azure OpenAI model guide](https://learn.microsoft.com/azure/ai-services/openai/concepts/models).   
+
+- [**Azure Document Intelligence resource**](https://learn.microsoft.com/azure/ai-services/document-intelligence/create-document-intelligence-resource?view=doc-intel-2.1.0)
+- [**Azure Custom Vision resource**](https://portal.azure.com/?microsoft_azure_marketplace_ItemHideKey=microsoft_azure_cognitiveservices_customvision#create/Microsoft.CognitiveServicesCustomVision)
+- [**GitHub Account**](https://github.com/join)
+- [**Visual Studio 2022**](https://visualstudio.microsoft.com/downloads/)
+    - [Model Builder Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=MLNET.ModelBuilder2022)
+- [**Visual Studio Code**](https://code.visualstudio.com/Download)
+    - [Polyglot Notebooks extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
+- [**(Optional) ML.NET CLI**](https://learn.microsoft.com/dotnet/machine-learning/how-to-guides/install-ml-net-cli?tabs=linux)
+
+## Quick Start
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dotnet/beginner-series)
+
+## Setup
+
+Some of the samples require Azure Services so you'll need to set the following environment variables:
+
+- Azure OpenAI - See the [retrieve key and endpoint guide](https://learn.microsoft.com/azure/ai-services/openai/tutorials/embeddings?tabs=python%2Ccommand-line#retrieve-key-and-endpoint) for more details.
+    - **AOAI_DEPLOYMENTID**: The name of your GPT model deployment.
+    - **AOAI_EMBEDDINGS_DEPLOYMENTID**: The name of your embedding model deployment.
+    - **AOAI_ENDPOINT**: Your Azure OpenAI endpoint
+    - **AOAI_KEY**: Your Azure OpenAI Key
+- Azure Document Intelligence - See the [get endpoint URL and keys guide](https://learn.microsoft.com/azure/ai-services/document-intelligence/create-document-intelligence-resource?view=doc-intel-3.1.0#get-endpoint-url-and-keys) for more details.
+    - **DOCUMENT_KEY**: Your Document Intelligence Key
+    - **DOCUMENT_ENDPOINT**: Your Document Intelligence Endpoint
+- Azure Custom Vision - See the [create environment variables guide](https://learn.microsoft.com/azure/ai-services/custom-vision-service/quickstarts/image-classification?tabs=linux%2Cvisual-studio&pivots=programming-language-csharp#create-environment-variables) for more details on how to get these values. 
+    - **VISION_TRAINING_KEY**: Your Azure Custom Vision training resource key
+    - **VISION_TRAINING_ENDPOINT**: Your Azure Custom Vision training endpoint.
+    - **VISION_PREDICTION_KEY**: The key for your Azure Custom Vision predicion resource
+    - **VISION_PREDICTION_ENDPOINT**: Your Azure Custom Vision prediction resource key.
+    - **VISION_PREDICTION_RESOURCE_ID**: The resource ID for your prediction resource.
+
+### Codespaces
+
+1. Open [*.devcontainer/ai/devcontainer.json*](../.devcontainer/ai/devcontainer.json)
+1. Replace the blank environment variable values in the `containerEnv` section with your own.
+1. Save your changes
+1. Rebuild the container
+    1. Open the command palette. In the menu bar, select **View > Command Palette**.
+    1. Enter the following command into the command palette **>Codespaces: Rebuild Container**.                         
+
 ## Video
 
 Full Series:
+
 YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/ai 
 
 Learn link: https://aka.ms/dotnet/beginnervideos/learn/ai
