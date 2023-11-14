@@ -354,4 +354,8 @@ Data/*.csv
 Data/*.zip
 Data/assets/**/*
 
+# ML.NET AutoML experiment files
 **/*.mlnet
+
+# neo4j
+.devcontainer/data/neo4j/
