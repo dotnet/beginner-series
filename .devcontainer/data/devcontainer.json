@@ -34,7 +34,6 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
-
 	],
 	
 	"postCreateCommand": "bash .devcontainer/scripts/postCreateCommand.sh 'P@ssw0rd' '.devcontainer/dacpac/' '.devcontainer/scripts/'",

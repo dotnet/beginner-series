@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Data.SqlClient;
+using Microsoft.Data.Sqlite;
 
 class Program
 {
     static void Main()
     {
-        string connectionString = "Server=sqlserver;Database=ContosoPizza;User Id=sa;Password=P@ssw0rd;Encrypt=False";
+        string connectionString = "Data Source=ContosoPizza.db";
 
-        using (SqlConnection connection = new SqlConnection(connectionString))
+        using (SqliteConnection connection = new SqliteConnection(connectionString))
         {
             connection.Open();
 
@@ -19,7 +19,7 @@ class Program
             Console.WriteLine("About to create a new record for Milkshake. Press Enter to proceed...");
             Console.ReadLine();
             string createQuery = "INSERT INTO Products (Name, Price) VALUES (@Name, @Price)";
-            using (SqlCommand command = new SqlCommand(createQuery, connection))
+            using (SqliteCommand command = new SqliteCommand(createQuery, connection))
             {
                 command.Parameters.AddWithValue("@Name", "Milkshake");
                 command.Parameters.AddWithValue("@Price", 9.99);
@@ -34,10 +34,10 @@ class Program
             Console.WriteLine("About to read the record for Milkshake. Press Enter to proceed...");
             Console.ReadLine();
             string readQuery = "SELECT * FROM Products WHERE Name = @Name";
-            using (SqlCommand command = new SqlCommand(readQuery, connection))
+            using (SqliteCommand command = new SqliteCommand(readQuery, connection))
             {
                 command.Parameters.AddWithValue("@Name", "Milkshake");
-                using (SqlDataReader reader = command.ExecuteReader())
+                using (SqliteDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {
@@ -49,10 +49,10 @@ class Program
             DisplaySeparator();
 
             // Update operation
-            Console.WriteLine("About to update the price of Milkshake to 19.99. Press Enter to proceed...");
+            Console.WriteLine("About to update the price of Milkshake. Press Enter to proceed...");
             Console.ReadLine();
             string updateQuery = "UPDATE Products SET Price = @Price WHERE Name = @Name";
-            using (SqlCommand command = new SqlCommand(updateQuery, connection))
+            using (SqliteCommand command = new SqliteCommand(updateQuery, connection))
             {
                 command.Parameters.AddWithValue("@Name", "Milkshake");
                 command.Parameters.AddWithValue("@Price", 4.99);
@@ -67,7 +67,7 @@ class Program
             Console.WriteLine("About to delete the record for Milkshake. Press Enter to proceed...");
             Console.ReadLine();
             string deleteQuery = "DELETE FROM Products WHERE Name = @Name";
-            using (SqlCommand command = new SqlCommand(deleteQuery, connection))
+            using (SqliteCommand command = new SqliteCommand(deleteQuery, connection))
             {
                 command.Parameters.AddWithValue("@Name", "Milkshake");
                 command.ExecuteNonQuery();
@@ -79,13 +79,13 @@ class Program
         }
     }
 
-    static void DisplayAllRecords(SqlConnection connection)
+    static void DisplayAllRecords(SqliteConnection connection)
     {
         Console.WriteLine("Here are all the records:\n");
         string selectQuery = "SELECT * FROM Products";
-        using (SqlCommand command = new SqlCommand(selectQuery, connection))
+        using (SqliteCommand command = new SqliteCommand(selectQuery, connection))
         {
-            using (SqlDataReader reader = command.ExecuteReader())
+            using (SqliteDataReader reader = command.ExecuteReader())
             {
                 while (reader.Read())
                 {

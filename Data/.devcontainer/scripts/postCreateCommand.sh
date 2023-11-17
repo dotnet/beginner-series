@@ -64,3 +64,8 @@ then
 fi
 
 dotnet dev-certs https
+
+pushd /02-sql-and-ado
+dotnet restore
+dotnet build
+popd

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-sql-and-ado", "02-sql-and-ado", "{2EC5C252-5D8E-482A-8D78-8C4407D75CFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sqlite", "02-sql-and-ado\Sqlite\Sqlite.csproj", "{603711C3-1E9F-4678-A6D0-31F2822BF269}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServer", "02-sql-and-ado\SqlServer\SqlServer.csproj", "{D428598F-A624-4CCC-AD25-9884D17A19C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{603711C3-1E9F-4678-A6D0-31F2822BF269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603711C3-1E9F-4678-A6D0-31F2822BF269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603711C3-1E9F-4678-A6D0-31F2822BF269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603711C3-1E9F-4678-A6D0-31F2822BF269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D428598F-A624-4CCC-AD25-9884D17A19C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D428598F-A624-4CCC-AD25-9884D17A19C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D428598F-A624-4CCC-AD25-9884D17A19C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D428598F-A624-4CCC-AD25-9884D17A19C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{603711C3-1E9F-4678-A6D0-31F2822BF269} = {2EC5C252-5D8E-482A-8D78-8C4407D75CFC}
+		{D428598F-A624-4CCC-AD25-9884D17A19C0} = {2EC5C252-5D8E-482A-8D78-8C4407D75CFC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD064481-42BA-42A4-A89C-2D389E44EBE3}
+	EndGlobalSection
+EndGlobal
