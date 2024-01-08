@@ -22,6 +22,7 @@ Navigate through the folder associated with the video series that you're interes
 | 08  |                     Visual Studio                      |          [Visual Studio materials](Visual%20Studio) | [Visual Studio videos](https://aka.ms/dotnet/beginnervideos/youtube/visualstudio)
 | 09  |                     Package Management (NuGet)                      |          [Package Management materials](Package%20Management%20with%20NuGet) | [Package Management videos](https://aka.ms/dotnet/beginnervideos/youtube/nuget)
 | 10  |                     VS Code and the C# Dev Kit                      |          [VS Code materials](VS%20Code%20and%20the%20C%23%20Dev%20Kit) | [VS Code videos](https://aka.ms/dotnet/beginnervideos/youtube/vscode)
+| 11  |                     Containers with .NET and Docker                      |          [Containers materials](Containers) | [Containers videos](https://aka.ms/dotnet/beginnervideos/youtube/containers)
 
 # New to C#?
 
