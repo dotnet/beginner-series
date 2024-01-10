@@ -21,7 +21,7 @@ In this video series, we will discuss Containers with .NET and Docker.
 | **Goal**              | Introduction to .NET Containers                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
 | **What will you learn**       | Introduction to .NET containers, how to make great containers, and how to publish .NET containers everywhere                                        |
-| **What you'll need**          | [VS Code](code.visualstudio.com) or [Visual Studio](https://visualstudio.microsoft.com/downloads/), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) |
+| **What you'll need**          | [VS Code](code.visualstudio.com) or [Visual Studio](https://visualstudio.microsoft.com/downloads/), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) [Docker](https://docs.docker.com/get-docker/) |
 | **Number of videos**                  | 3                                                                |
                          
 ## Video
