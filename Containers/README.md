@@ -18,12 +18,13 @@ Individual Video Links:
 
 In this video series, we will discuss Containers with .NET and Docker.
 
-| **Goal**              | Introduction to .NET Containers                                    |
-| ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | Introduction to .NET containers, how to make great containers, and how to publish .NET containers everywhere                                        |
-| **What you'll need**          | [VS Code](code.visualstudio.com) or [Visual Studio](https://visualstudio.microsoft.com/downloads/), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), [.NET SDK](https://dotnet.microsoft.com/download) [Docker](https://docs.docker.com/get-docker/) |
-| **Number of videos**                  | 3                                                                |
-                         
+| **Goal**                | Introduction to .NET Containers                                                                                                                                                                                                                                                                |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **What will you learn** | Introduction to .NET containers, how to make great containers, and how to publish .NET containers everywhere                                                                                                                                                                                   |
+| **What you'll need**    | [VS Code](code.visualstudio.com) or [Visual Studio](https://visualstudio.microsoft.com/downloads/), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) and [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) extensions if you use VS Code, [.NET SDK](https://dotnet.microsoft.com/download), [Docker](https://docs.docker.com/get-docker/) |
+| **Number of videos**    | 3                                                                                                                                                                                                                                                                                              |
+| **Follow along**        | [sample code](./sample-code/)                                                                                                                                                                                                                                                                  |
+
 ## Video
 
 YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/containers 
@@ -49,7 +50,7 @@ This video grounds the Containers topic in a few key questions:
 
 We will talk about Containers vs VMs (virtual machines), containers as the ‘base language’ of the cloud and highlight popular cloud platforms/tools that run via Containers as evidence that developers should learn how to use Containers. From there, we will pivot to a brief examination of how containers work – we will go over the concept of wrapping an application up with data that describes how to run it, and talk about how this strategy enables tooling and teams to operate with a shared baseline understanding of the application. 
 
-Once we have established how necessary Containers are, we will end with a very quick ‘zero-to-containerized' demo of the .NET SDK Container tools, packaging an existing application into a container.
+Once we have established how necessary Containers are, we will end with a very quick 'zero-to-containerized' demo of the .NET SDK Container tools, packaging an existing application into a container.
 
 [What's the deal with .NET & Containers?](https://youtu.be/HA8rpDWMRq0)
 
