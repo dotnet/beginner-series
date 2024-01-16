@@ -10,18 +10,19 @@ Navigate through the folder associated with the video series that you're interes
 
 # Series
 
-|     |                       Topic                       |                                                         Learning Materials                                                          |                                                         Video Link                                                          |
-| :-: | :------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
-| 01  |                     C#                      |          [C# materials](C%23) | [C# videos](https://aka.ms/dotnet/beginnervideos/youtube/csharp)
-| 02  |                     .NET                      |          [.NET materials](.NET) | [.NET videos](https://aka.ms/dotnet/beginnervideos/youtube/dotnet)
-| 03  |                     Artificial Intelligence & Machine Learning (AI/ML)                      |          [AI/ML materials](Artificial%20Intelligence%20and%20Machine%20Learning) | [AI/ML videos](https://aka.ms/dotnet/beginnervideos/youtube/ai)
-| 04  |                     Internet of Things (IoT)                      |          [IoT materials](IoT) | [IoT videos](https://aka.ms/dotnet/beginnervideos/youtube/iot)
-| 05  |                     Mobile Development (.NET MAUI)                      |          [Mobile development materials](.NET%20MAUI) | [Mobile development videos](https://aka.ms/dotnet/beginnervideos/youtube/maui)
-| 06  |                     Updating Applications (Modernization)                      |          [Updating Applications materials](Modernization) | [Updating Applications videos](https://aka.ms/dotnet/beginnervideos/youtube/modernization)
-| 07  |                     Blazor Hybrid                      |          [Blazor Hybrid materials](Blazor%20Hybrid) | [Blazor Hybrid videos](https://aka.ms/dotnet/beginnervideos/youtube/blazorhybrid)
-| 08  |                     Visual Studio                      |          [Visual Studio materials](Visual%20Studio) | [Visual Studio videos](https://aka.ms/dotnet/beginnervideos/youtube/visualstudio)
-| 09  |                     Package Management (NuGet)                      |          [Package Management materials](Package%20Management%20with%20NuGet) | [Package Management videos](https://aka.ms/dotnet/beginnervideos/youtube/nuget)
-| 10  |                     VS Code and the C# Dev Kit                      |          [VS Code materials](VS%20Code%20and%20the%20C%23%20Dev%20Kit) | [VS Code videos](https://aka.ms/dotnet/beginnervideos/youtube/vscode)
+|                       Topic                       |                                                         Learning Materials                                                          |                                                         Video Link                                                          |
+| :------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
+|                     C#                      |          [C# materials](C%23) | [C# videos](https://aka.ms/dotnet/beginnervideos/youtube/csharp)
+|                     .NET                      |          [.NET materials](.NET) | [.NET videos](https://aka.ms/dotnet/beginnervideos/youtube/dotnet)
+|                     Artificial Intelligence & Machine Learning (AI/ML)                      |          [AI/ML materials](Artificial%20Intelligence%20and%20Machine%20Learning) | [AI/ML videos](https://aka.ms/dotnet/beginnervideos/youtube/ai)
+|                     Internet of Things (IoT)                      |          [IoT materials](IoT) | [IoT videos](https://aka.ms/dotnet/beginnervideos/youtube/iot)
+|                     Mobile Development (.NET MAUI)                      |          [Mobile development materials](.NET%20MAUI) | [Mobile development videos](https://aka.ms/dotnet/beginnervideos/youtube/maui)
+|                     Updating Applications (Modernization)                      |          [Updating Applications materials](Modernization) | [Updating Applications videos](https://aka.ms/dotnet/beginnervideos/youtube/modernization)
+|                     Blazor Hybrid                      |          [Blazor Hybrid materials](Blazor%20Hybrid) | [Blazor Hybrid videos](https://aka.ms/dotnet/beginnervideos/youtube/blazorhybrid)
+|                     Visual Studio                      |          [Visual Studio materials](Visual%20Studio) | [Visual Studio videos](https://aka.ms/dotnet/beginnervideos/youtube/visualstudio)
+|                     Package Management (NuGet)                      |          [Package Management materials](Package%20Management%20with%20NuGet) | [Package Management videos](https://aka.ms/dotnet/beginnervideos/youtube/nuget)
+|                     VS Code and the C# Dev Kit                      |          [VS Code materials](VS%20Code%20and%20the%20C%23%20Dev%20Kit) | [VS Code videos](https://aka.ms/dotnet/beginnervideos/youtube/vscode)
+|                     Containers with .NET and Docker                      |          [Containers materials](Containers) | [Containers videos](https://aka.ms/dotnet/beginnervideos/youtube/containers)
 
 # New to C#?
 
