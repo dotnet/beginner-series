@@ -62,21 +62,32 @@ In this episode you'll learn how to route page navigations to specific component
 ## Video 5: Blazor Web App Project Structure
 Let's take a look at all the files that make up a Blazor web app project and understand what they do.
  
+[Blazor Web App Project Structure]()
+
 ## Video 6: Handling UI Events in Blazor Web Apps
 In this episode you'll learn how to handle all kinds of UI events from your components. We'll also look at handling component child content, working with render fragments, and handling additional component attributes.
+
+[Handling UI Events in Blazor Web Apps]()
  
 ## Video 7: Data Binding in Blazor Web Apps
 Learn how to bind data to your UI elements and components using Blazor's powerful data binding capabilities. We'll also take everything we've learned so far and build a simple to do list app.
  
+[Data Binding in Blazor Web Apps]()
+
 ## Video 8: Blazor Component Render Modes
 In this episode we'll look at the different component render modes and the different ways you can make Blazor components interactive.
  
+[Blazor Component Render Modes]() 
+
 ## Video 9: Work with Data in Blazor
 Any web app is going to need to work with data. In this episode we connect our Blazor components to a database using Entity Framework Core and scaffolding. We'll also explore the capabilities of QuickGrid, Blazor's built-in data grid component.
  
+[Work with Data in Blazor]()
+
 ## Video 10: Forms & Validation in Blazor Web Apps
 Let's use Blazor's built-in components for forms and validation to interact with the data in a database.
 
+[Forms & Validation in Blazor Web Apps]()
 
 ## Feedback
 
