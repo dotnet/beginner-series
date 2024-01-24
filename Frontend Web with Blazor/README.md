@@ -5,9 +5,8 @@
 ## Video Series Links
 
 Full Series:
-YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/blazor 
-
-Learn link: https://aka.ms/dotnet/beginnervideos/learn/blazor
+- YouTube link: https://aka.ms/dotnet/beginnervideos/youtube/blazor 
+- Learn link: https://aka.ms/dotnet/beginnervideos/learn/blazor
 
 Individual Video Links:
 1. [What is Blazor?](https://youtu.be/sIIfnGqEIds)
@@ -26,7 +25,7 @@ Individual Video Links:
 | **Goal**              | Build your first Blazor web application                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
 | **What will you learn**       | Introduction to Frontend Web Development with .NET using Blazor                                       |
-| **What you'll need**          | [VS Code](code.visualstudio.com) or [Visual Studio](https://visualstudio.microsoft.com/downloads/), [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension if you use VS Code, [.NET SDK](https://dotnet.microsoft.com/download)|
+| **What you'll need**          | [Visual Studio Code](code.visualstudio.com) with the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension and the [.NET SDK](https://dotnet.microsoft.com/download)|, or [Visual Studio](https://visualstudio.microsoft.com/downloads/) with the "ASP.NET and web development" workload installed.
 | **Number of videos**          | 10                                                               |
 | **Follow Along** | [sample-code](sample-code)                        |
                          
@@ -45,7 +44,7 @@ Blazor docs: https://blazor.net/docs
 Learn Blazor: https://aka.ms/blazor/learn
 
 ## Video 1: What is Blazor?
-Welcome to the Frontend Web Development for Beginners! In this expisode you'll learn about what Blazor is and how it's used from frontend web development with .NET.
+Welcome to the Frontend Web Development for Beginners! In this episode you'll learn about what Blazor is and how it's used for frontend web development with .NET.
 
 Video link: [What is Blazor?](https://youtu.be/sIIfnGqEIds)
 
@@ -55,7 +54,7 @@ Resources:
 
  
 ## Video 2: Build and run your first Blazor web app
-It's time to get you development environment set up to build your first Blazor web app.
+It's time to get your development environment set up to build your first Blazor web app.
 
 Video link: [Build and run your first Blazor web app](https://youtu.be/llDc88XE--Q)
 
@@ -65,7 +64,7 @@ Resources:
 
 
 ## Video 3: Introducing Blazor Components
-This episode is all about Blazor components. You'll learn how to create components, how to use them, and how pass data to them.
+This episode is all about Blazor components. You'll learn how to create components, how to use them, and how to pass data to them.
  
 Video link: [Introducing Blazor Components](https://youtu.be/sbXzifvMKXE)
 
@@ -82,7 +81,7 @@ Resources:
  
  
 ## Video 5: Blazor Web App Project Structure
-Let's take a look at all the files that make up a Blazor web app project and understand what they do.
+Let's take a look at all the files that make up a Blazor Web App project and understand what they do.
  
 Video link: [Blazor Web App Project Structure](https://youtu.be/JcOAtSU-jJ0)
 
@@ -98,7 +97,7 @@ Resources:
 - Blazor project structure: https://learn.microsoft.com/aspnet/core/blazor/project-structure
 
 ## Video 7: Data Binding in Blazor Web Apps
-Learn how to bind data to your UI elements and components using Blazor's powerful data binding capabilities. We'll also take everything we've learned so far and build a simple to do list app.
+Learn how to bind data to your UI elements and components using Blazor's powerful data binding capabilities. We'll also take everything we've learned so far and build a simple to-do list app.
  
 Video link: [Data Binding in Blazor Web Apps](https://youtu.be/HfW9J6CXKZc)
 
