@@ -1,0 +1,65 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+@using Timer=System.Timers.Timer
+@implements IDisposable
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<div class="mt-3">
+    <input @bind="text" @bind:event="oninput" @bind:after="Search"/>
+    <button @onclick="ClearText">Clear</button>
+    <p>@text</p>
+    <p>@searchResults</p>
+</div>
+
+
+@code {
+    private int currentCount = 0;
+    string text = "";
+    string searchResults = "";
+    Timer timer = new(1000);
+
+    protected override void OnInitialized()
+    {
+        timer.AutoReset = false;
+        timer.Elapsed += DoSearch;
+    }
+
+    private void ClearText(MouseEventArgs e)
+    {
+        text = "";
+        searchResults = "";
+    }
+
+    void Search()
+    {
+        searchResults = "";
+        timer.Stop();
+        timer.Start();
+    }
+
+    async void DoSearch(object? sender, System.Timers.ElapsedEventArgs e)
+    {
+        await InvokeAsync(async () =>
+        {
+            searchResults = "Searching...";
+            StateHasChanged();
+            await Task.Delay(2000);
+            searchResults = $"Found {Random.Shared.Next()} results!";
+            StateHasChanged();
+        });
+    }
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    public void Dispose() => timer.Dispose();
+}
