@@ -1,0 +1,65 @@
+﻿@page "/movies/delete"
+@inject BlazorMovieApp.Data.BlazorMovieAppContext DB
+@using BlazorMovieApp
+@inject NavigationManager NavigationManager
+@using Microsoft.EntityFrameworkCore
+
+<PageTitle>Delete</PageTitle>
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Movie</h4>
+    <hr />
+    @if (movie is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">Title</dt>
+            <dd class="col-sm-10">@movie.Title</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">ReleaseDate</dt>
+            <dd class="col-sm-10">@movie.ReleaseDate</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Genre</dt>
+            <dd class="col-sm-10">@movie.Genre</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-sm-2">Price</dt>
+            <dd class="col-sm-10">@movie.Price</dd>
+        </dl>
+        <EditForm method="post" Model="movie" OnValidSubmit="DeleteMovie" FormName="delete" Enhance>
+            <button type="submit" class="btn btn-danger" disabled="@(movie is null)">Delete</button> |
+            <a href="/movies">Back to List</a>
+        </EditForm>
+    }
+</div>
+
+@code {
+    Movie? movie;
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        movie = await DB.Movie.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (movie is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    public async Task DeleteMovie()
+    {
+        DB.Movie.Remove(movie!);
+        await DB.SaveChangesAsync();
+        NavigationManager.NavigateTo("/movies");
+    }
+}

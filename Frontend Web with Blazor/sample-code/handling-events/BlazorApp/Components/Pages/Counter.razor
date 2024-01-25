@@ -1,0 +1,36 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="() => currentCount++">Click me</button>
+<button class="btn btn-success" @onclick="IncrementCount">Fancy click me</button>
+
+<div class="mt-3">
+    <input @oninput="OnInput" />
+    <p>@text</p>
+</div>
+
+<div style="background-color:lightblue" @onmouseover="MouseOver" @onmouseout="MouseOut">@divText</div>
+
+@code {
+    private int currentCount = 0;
+    string text = "";
+    string divText = "Mouse out";
+
+    private void IncrementCount() => currentCount++;
+
+    private async Task IncrementCountAsync()
+    {
+        await Task.Delay(1000);
+        currentCount++;
+    }
+
+    private void OnInput(ChangeEventArgs e) => text = (string)e.Value;
+    private void MouseOver(MouseEventArgs e) => divText = "Mouse over";
+    private void MouseOut(MouseEventArgs e) => divText = "Mouse out";
+}
