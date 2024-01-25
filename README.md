@@ -14,15 +14,16 @@ Navigate through the folder associated with the video series that you're interes
 | :------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
 |                     C#                      |          [C# materials](C%23) | [C# videos](https://aka.ms/dotnet/beginnervideos/youtube/csharp)
 |                     .NET                      |          [.NET materials](.NET) | [.NET videos](https://aka.ms/dotnet/beginnervideos/youtube/dotnet)
-|                     Artificial Intelligence & Machine Learning (AI/ML)                      |          [AI/ML materials](Artificial%20Intelligence%20and%20Machine%20Learning) | [AI/ML videos](https://aka.ms/dotnet/beginnervideos/youtube/ai)
-|                     Internet of Things (IoT)                      |          [IoT materials](IoT) | [IoT videos](https://aka.ms/dotnet/beginnervideos/youtube/iot)
-|                     Mobile Development (.NET MAUI)                      |          [Mobile development materials](.NET%20MAUI) | [Mobile development videos](https://aka.ms/dotnet/beginnervideos/youtube/maui)
-|                     Updating Applications (Modernization)                      |          [Updating Applications materials](Modernization) | [Updating Applications videos](https://aka.ms/dotnet/beginnervideos/youtube/modernization)
-|                     Blazor Hybrid                      |          [Blazor Hybrid materials](Blazor%20Hybrid) | [Blazor Hybrid videos](https://aka.ms/dotnet/beginnervideos/youtube/blazorhybrid)
 |                     Visual Studio                      |          [Visual Studio materials](Visual%20Studio) | [Visual Studio videos](https://aka.ms/dotnet/beginnervideos/youtube/visualstudio)
-|                     Package Management (NuGet)                      |          [Package Management materials](Package%20Management%20with%20NuGet) | [Package Management videos](https://aka.ms/dotnet/beginnervideos/youtube/nuget)
 |                     VS Code and the C# Dev Kit                      |          [VS Code materials](VS%20Code%20and%20the%20C%23%20Dev%20Kit) | [VS Code videos](https://aka.ms/dotnet/beginnervideos/youtube/vscode)
+|                     Package Management (NuGet)                      |          [Package Management materials](Package%20Management%20with%20NuGet) | [Package Management videos](https://aka.ms/dotnet/beginnervideos/youtube/nuget)
+|                     Artificial Intelligence & Machine Learning (AI/ML)                      |          [AI/ML materials](Artificial%20Intelligence%20and%20Machine%20Learning) | [AI/ML videos](https://aka.ms/dotnet/beginnervideos/youtube/ai)
+|                     Frontend Web Development                    |          [Frontend Web development materials](Frontend%20Web%20with%20Blazor) | [Frontend WEb development videos](https://aka.ms/dotnet/beginnervideos/youtube/blazor)
+|                     Multi-plaform App UI (.NET MAUI)                      |          [Multi-platform development materials](.NET%20MAUI) | [Multi-platform development videos](https://aka.ms/dotnet/beginnervideos/youtube/maui)
+|                     Blazor Hybrid                      |          [Blazor Hybrid materials](Blazor%20Hybrid) | [Blazor Hybrid videos](https://aka.ms/dotnet/beginnervideos/youtube/blazorhybrid)
 |                     Containers with .NET and Docker                      |          [Containers materials](Containers) | [Containers videos](https://aka.ms/dotnet/beginnervideos/youtube/containers)
+|                     Internet of Things (IoT)                      |          [IoT materials](IoT) | [IoT videos](https://aka.ms/dotnet/beginnervideos/youtube/iot)
+|                     Updating Applications (Modernization)                      |          [Updating Applications materials](Modernization) | [Updating Applications videos](https://aka.ms/dotnet/beginnervideos/youtube/modernization)
 
 # New to C#?
 
