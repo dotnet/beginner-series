@@ -15,6 +15,7 @@ Navigate through the folder associated with the video series that you're interes
 |                     C#                      |          [C# materials](C%23) | [C# videos](https://aka.ms/dotnet/beginnervideos/youtube/csharp)
 |                     .NET                      |          [.NET materials](.NET) | [.NET videos](https://aka.ms/dotnet/beginnervideos/youtube/dotnet)
 |                     Artificial Intelligence & Machine Learning (AI/ML)                      |          [AI/ML materials](Artificial%20Intelligence%20and%20Machine%20Learning) | [AI/ML videos](https://aka.ms/dotnet/beginnervideos/youtube/ai)
+|                     Frontend Web with Blazor                      |          [Frontend Web materials](Frontend%20Web%20with%20Blazor) | [Frontend Web videos](https://aka.ms/dotnet/beginnervideos/youtube/blazor)
 |                     Internet of Things (IoT)                      |          [IoT materials](IoT) | [IoT videos](https://aka.ms/dotnet/beginnervideos/youtube/iot)
 |                     Mobile Development (.NET MAUI)                      |          [Mobile development materials](.NET%20MAUI) | [Mobile development videos](https://aka.ms/dotnet/beginnervideos/youtube/maui)
 |                     Updating Applications (Modernization)                      |          [Updating Applications materials](Modernization) | [Updating Applications videos](https://aka.ms/dotnet/beginnervideos/youtube/modernization)
@@ -39,3 +40,7 @@ Check out the new [Foundational C# Certification](https://aka.ms/csharp-certific
 Start a self-guided [.NET Learning Path](https://learn.microsoft.com/en-us/training/dotnet).
 
 Find a .NET user group, follow our socials, & join a .NET events at our [Community Page](https://aka.ms/WebLearningSeries-git-community).
+
+# Feedback
+
+Leave your feedback for the .NET Beginner Video Series using [this feedback form](https://aka.ms/dotnet/beginnervideos/feedback).
