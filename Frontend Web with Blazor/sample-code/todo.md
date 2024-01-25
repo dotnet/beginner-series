@@ -3,7 +3,7 @@
 1. [Build and run your first Blazor web app](https://youtu.be/llDc88XE--Q)
     1. None
 1. [Introducing Blazor Components](https://youtu.be/sbXzifvMKXE)
-    1. 
+    1. Done
 1. [Pages, Routing, and Layouts in Blazor](https://youtu.be/TKDo_hEGPJ0)
 1. [Blazor Web App Project Structure](https://youtu.be/JcOAtSU-jJ0)
 1. [Handling UI Events in Blazor Web Apps](https://youtu.be/U1H72rASN6I)
