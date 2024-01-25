@@ -40,3 +40,7 @@ Check out the new [Foundational C# Certification](https://aka.ms/csharp-certific
 Start a self-guided [.NET Learning Path](https://learn.microsoft.com/en-us/training/dotnet).
 
 Find a .NET user group, follow our socials, & join a .NET events at our [Community Page](https://aka.ms/WebLearningSeries-git-community).
+
+# Feedback
+
+Leave your feedback for the .NET Beginner Video Series using [this feedback form](https://aka.ms/dotnet/beginnervideos/feedback).
