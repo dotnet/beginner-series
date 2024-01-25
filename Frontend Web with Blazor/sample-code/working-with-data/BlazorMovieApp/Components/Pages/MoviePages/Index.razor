@@ -1,0 +1,41 @@
+﻿@page "/movies"
+@using Microsoft.AspNetCore.Components.QuickGrid
+@inject BlazorMovieApp.Data.BlazorMovieAppContext DB
+@using BlazorMovieApp
+@rendermode InteractiveServer
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="movies/create">Create New</a>
+</p>
+
+<QuickGrid Class="table" Items="FilteredMovies" Pagination="state">
+    <PropertyColumn Property="movie => movie.Title" Sortable="true">
+        <ColumnOptions>
+            <div>
+                <input type="search" @bind="filter" @bind:event="oninput" autofocus/>
+            </div>
+        </ColumnOptions>
+    </PropertyColumn>
+    <PropertyColumn Property="movie => movie.ReleaseDate" Format="MM/dd/yyyy" />
+    <PropertyColumn Property="movie => movie.Genre" />
+    <PropertyColumn Property="movie => movie.Price" />
+
+    <TemplateColumn Context="movie">
+        <a href="@($"movies/edit?id={movie.Id}")">Edit</a> |
+        <a href="@($"movies/details?id={movie.Id}")">Details</a> |
+        <a href="@($"movies/delete?id={movie.Id}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
+
+<Paginator State="state"/>
+
+@code {
+    PaginationState state = new PaginationState { ItemsPerPage = 10 };
+    string filter = "";
+
+    public IQueryable<Movie> FilteredMovies => DB.Movie.Where(m => m.Title.Contains(filter));
+}
