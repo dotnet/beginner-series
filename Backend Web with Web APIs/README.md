@@ -1,6 +1,6 @@
 # Back-end Web Development with .NET for Beginners
 
-Web APIs are designed to enable applications to interact with data and business logic and exchange information with other services over common internet protocols like HTTP. This course introduces the basic concepts behind ASP.NET, including: the hosting model, middlewares, and dependency injection. This course will also provide an overview of building HTTP-based services using minimal APIs. 
+Web APIs are designed to enable applications to interact with data and business logic and exchange information with other services over common internet protocols like HTTP. This course introduces the basic concepts behind building web APIs with ASP.NET Core, including: the hosting model, middlewares, and dependency injection. This course will also provide an overview of building HTTP-based services using minimal APIs. 
 
 ## Video Series Links
 
@@ -23,7 +23,7 @@ Individual Video Links:
 
 | **Goal**              | Build your first web APIs with ASP.NET Core                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | Introduction to Back-End Web Development with .NET using Minimal APIs                                       |
+| **What will you learn**       | Introduction to Back-End Web Development with .NET using Minimal APIs and ASP.NET Core                                      |
 | **What you'll need**          | [Visual Studio Code](code.visualstudio.com) with the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) extension and the [.NET SDK](https://dotnet.microsoft.com/download)|
 | **Number of videos**          | 8                                                               |
 | **Follow Along** | [sample-code](sample-code)                        |
