@@ -1,7 +1,7 @@
 #!/bin/bash
 CSV_FILE=issues_train.tsv
 if [ ! -f "../Data/$CSV_FILE" ]; then
-    wget -P ../Data https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/$CSV_FILE
+    wget -P ../Data https://raw.githubusercontent.com/dotnet/samples/main/machine-learning/tutorials/GitHubIssueClassification/Data/$CSV_FILE
     echo "File downloaded"
 fi
 echo "Skipping file download"
