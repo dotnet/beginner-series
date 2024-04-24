@@ -1,6 +1,6 @@
 $CSV_FILE = "train.csv"
 if (!(Test-Path "..\Data\$CSV_FILE")) {
-    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/$CSV_FILE" -OutFile "..\Data\$CSV_FILE"
+    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/dotnet/samples/main/machine-learning/tutorials/GitHubIssueClassification/Data/$CSV_FILE" -OutFile "..\Data\$CSV_FILE"
     Write-Host "File downloaded"
 }
 Write-Host "Skipping file download"
