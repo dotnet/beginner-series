@@ -14,7 +14,7 @@
     <PackageReference Include="TorchSharp-cpu" Version="0.99.5" />
   </ItemGroup>
   <ItemGroup Label="GitHubIssues">
-    <None Include="GitHubIssues.mlnet">
+    <None Include="GitHubIssues.mlnet" Condition="Exists('GitHubIssues.mlnet')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
