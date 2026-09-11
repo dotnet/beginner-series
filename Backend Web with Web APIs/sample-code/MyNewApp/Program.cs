@@ -26,7 +26,7 @@ app.MapGet("/todos/{id}", Results<Ok<Todo>, NotFound> (int id, ITaskService serv
 app.MapPost("/todos", (Todo task, ITaskService service) =>
 {
     service.AddTodo(task);
-    return TypedResults.Created($"/todos/{id}", task);
+    return TypedResults.Created($"/todos/{task.Id}", task);
 })
 .AddEndpointFilter(async (context, next) => {
     var taskArgument = context.GetArgument<Todo>(0);

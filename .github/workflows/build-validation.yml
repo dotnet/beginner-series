@@ -1,0 +1,275 @@
+name: Build Validation.
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  changes:
+    name: Detect Changes
+    runs-on: ubuntu-latest
+    outputs:
+      dotnet: ${{ steps.filter.outputs.dotnet }}
+      blazor: ${{ steps.filter.outputs.blazor }}
+      webapi: ${{ steps.filter.outputs.webapi }}
+      nuget: ${{ steps.filter.outputs.nuget }}
+      visualstudio: ${{ steps.filter.outputs.visualstudio }}
+      container: ${{ steps.filter.outputs.container }}
+      ai-ml: ${{ steps.filter.outputs.ai-ml }}
+      iot: ${{ steps.filter.outputs.iot }}
+      blazor-hybrid: ${{ steps.filter.outputs.blazor-hybrid }}
+      maui: ${{ steps.filter.outputs.maui }}
+    steps:
+    - uses: actions/checkout@v4
+    - uses: dorny/paths-filter@v3
+      id: filter
+      with:
+        filters: |
+          dotnet:
+            - '.NET/**'
+          blazor:
+            - 'Frontend Web with Blazor/**'
+          webapi:
+            - 'Backend Web with Web APIs/**'
+          nuget:
+            - 'Package Management with NuGet/**'
+          visualstudio:
+            - 'Visual Studio/**'
+          container:
+            - 'Containers/**'
+          ai-ml:
+            - 'Artificial Intelligence and Machine Learning/**'
+          iot:
+            - 'IoT/**'
+          blazor-hybrid:
+            - 'Blazor Hybrid/**'
+          maui:
+            - '.NET MAUI/**'
+
+  build-dotnet-samples:
+    name: Build .NET Samples
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.dotnet == 'true' }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Build MyConsoleApp
+      run: dotnet build ".NET/sample_code/MyConsoleApp/MyConsoleApp.sln"
+    
+    - name: Build MyPasswordGenerator
+      run: dotnet build ".NET/sample_code/MyPasswordGenerator/MyPasswordGenerator.sln"
+
+  build-blazor-samples:
+    name: Build Blazor Samples
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.blazor == 'true' }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Build Blazor - Handling Events
+      run: dotnet build "Frontend Web with Blazor/sample-code/handling-events/BlazorApp/BlazorApp.sln"
+    
+    - name: Build Blazor - Data Binding
+      run: dotnet build "Frontend Web with Blazor/sample-code/data-binding/BlazorApp/BlazorApp.sln"
+    
+    - name: Build Blazor - Components
+      run: dotnet build "Frontend Web with Blazor/sample-code/introducing-blazor-components/BlazorApp/BlazorApp.sln"
+    
+    - name: Build Blazor - Pages Routing Layouts
+      run: dotnet build "Frontend Web with Blazor/sample-code/pages-routing-layouts/BlazorApp/BlazorApp.sln"
+    
+    - name: Build Blazor - Working with Data
+      run: dotnet build "Frontend Web with Blazor/sample-code/working-with-data/BlazorMovieApp/BlazorMovieApp.sln"
+    
+    - name: Build Blazor - Render Modes
+      run: dotnet build "Frontend Web with Blazor/sample-code/render-modes/BlazorApp/BlazorApp.sln"
+
+  build-webapi-samples:
+    name: Build Web API Samples
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.webapi == 'true' }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Build MyNewApp Web API
+      run: dotnet build "Backend Web with Web APIs/sample-code/MyNewApp.sln"
+
+  build-nuget-samples:
+    name: Build NuGet Samples
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.nuget == 'true' }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Build AppLogger
+      run: dotnet build "Package Management with NuGet/sample-code/AppLogger/AppLogger.sln"
+    
+    - name: Build Account
+      run: dotnet build "Package Management with NuGet/sample-code/Account/Account.sln"
+
+  build-visualstudio-samples:
+    name: Build Visual Studio Samples
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.visualstudio == 'true' }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Build RazorPagesCupcakes
+      run: dotnet build "Visual Studio/sample-code/RazorPagesCupcakes.sln"
+
+  build-container-samples:
+    name: Build Container Samples
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.container == 'true' }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Build Container WebApp
+      run: dotnet build "Containers/sample-code/container-webapp/container-webapp.csproj"
+
+  build-ai-ml-samples:
+    name: Build AI/ML Samples
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.ai-ml == 'true' }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+
+    - name: Build MLModels
+      run: dotnet build "Artificial Intelligence and Machine Learning/sample-code/src/MLModels/MLModels.csproj"
+
+    - name: Build GitHub Issues Web API
+      run: dotnet build "Artificial Intelligence and Machine Learning/sample-code/src/GitHubIssuesWebApi/GitHubIssuesWebApi.csproj"
+    
+    - name: Build ChatGPT Plugin
+      run: dotnet build "Artificial Intelligence and Machine Learning/sample-code/src/chatgpt-plugin/chatgpt-plugin.csproj"
+
+  build-iot-samples:
+    name: Build IoT Samples
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.iot == 'true' }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Build IoT Sensor
+      run: dotnet build "IoT/5-sensors-displays-i2c/code/Sensor/Sensor.csproj"
+    
+    - name: Build IoT Adc
+      run: dotnet build "IoT/6-adc-spi/code/Adc/Adc.csproj"
+    
+    - name: Build IoT Temperature
+      run: dotnet build "IoT/6-adc-spi/code/temperature/temperature.csproj"
+
+  build-blazor-hybrid-samples:
+    name: Build Blazor Hybrid Samples
+    runs-on: windows-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.blazor-hybrid == 'true' }}
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+        
+    - name: Install .NET MAUI workload
+      run: dotnet workload install maui
+
+    - name: Restore HybridTodoApp
+      run: dotnet restore "Blazor Hybrid/sample-code/HybridTodoApp.sln"
+    
+    - name: Build HybridTodoApp (Windows only)
+      run: dotnet build "Blazor Hybrid/sample-code/HybridTodoApp/HybridTodoApp.csproj" -f net10.0-windows10.0.19041.0
+    
+    - name: Build HybridTodoApp Components
+      run: dotnet build "Blazor Hybrid/sample-code/HybridTodoApp.Components/HybridTodoApp.Components.csproj"
+    
+    - name: Build HybridTodoApp Website
+      run: dotnet build "Blazor Hybrid/sample-code/HybridTodoApp.Website/HybridTodoApp.Website.csproj"
+
+  build-maui-samples:
+    name: Build MAUI Samples (Windows)
+    runs-on: windows-latest
+    needs: changes
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.maui == 'true' }}
+    # Note: MAUI projects require platform-specific workloads and are built on Windows
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Install .NET MAUI workload
+      run: dotnet workload install maui
+    
+    - name: Restore MauiApp2
+      run: dotnet restore ".NET MAUI/sample-code/MauiApp2.sln"
+    
+    - name: Build MauiApp2 (Windows only)
+      run: dotnet build ".NET MAUI/sample-code/MauiApp2.sln" -f net10.0-windows10.0.19041.0

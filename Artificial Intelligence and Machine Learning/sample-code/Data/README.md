@@ -1,3 +1,3 @@
 # Placeholder
 
-Data files go in this directory
+Data files go in this directory.

@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-    .AddServerComponents();
+    .AddInteractiveServerComponents();
 
 builder.Services.AddSingleton<TodoService>();
 builder.Services.AddSingleton<IConnectivity, BlazorConnectivity>();
@@ -27,7 +27,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.MapRazorComponents<App>()
-    .AddServerRenderMode()
+    .AddInteractiveServerRenderMode()
     .AddAdditionalAssemblies(typeof(Todo).Assembly);
 
 app.Run();
