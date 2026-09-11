@@ -10,7 +10,7 @@
     <PackageReference Include="TorchSharp-cuda-windows" Version="0.99.5" />
   </ItemGroup>
   <ItemGroup Label="GitHubIssues">
-    <None Include="GitHubIssues.mlnet" Condition="Exists('GitHubIssues.mlnet')">
+    <None Include="GitHubIssues.mlnet" Condition="Exists('$(MSBuildProjectDirectory)/GitHubIssues.mlnet')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
