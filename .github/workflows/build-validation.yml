@@ -44,7 +44,7 @@ jobs:
           container:
             - 'Containers/**'
           ai-ml:
-            - 'Disabled for now/**'
+            - 'Artificial Intelligence and Machine Learning/**'
           iot:
             - 'IoT/**'
           blazor-hybrid:
@@ -56,7 +56,7 @@ jobs:
     name: Build .NET Samples
     runs-on: ubuntu-latest
     needs: changes
-    if: ${{ needs.changes.outputs.dotnet == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.dotnet == 'true' }}
     
     steps:
     - uses: actions/checkout@v4
@@ -76,7 +76,7 @@ jobs:
     name: Build Blazor Samples
     runs-on: ubuntu-latest
     needs: changes
-    if: ${{ needs.changes.outputs.blazor == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.blazor == 'true' }}
     
     steps:
     - uses: actions/checkout@v4
@@ -108,7 +108,7 @@ jobs:
     name: Build Web API Samples
     runs-on: ubuntu-latest
     needs: changes
-    if: ${{ needs.changes.outputs.webapi == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.webapi == 'true' }}
     
     steps:
     - uses: actions/checkout@v4
@@ -125,7 +125,7 @@ jobs:
     name: Build NuGet Samples
     runs-on: ubuntu-latest
     needs: changes
-    if: ${{ needs.changes.outputs.nuget == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.nuget == 'true' }}
     
     steps:
     - uses: actions/checkout@v4
@@ -145,7 +145,7 @@ jobs:
     name: Build Visual Studio Samples
     runs-on: ubuntu-latest
     needs: changes
-    if: ${{ needs.changes.outputs.visualstudio == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.visualstudio == 'true' }}
     
     steps:
     - uses: actions/checkout@v4
@@ -162,7 +162,7 @@ jobs:
     name: Build Container Samples
     runs-on: ubuntu-latest
     needs: changes
-    if: ${{ needs.changes.outputs.container == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.container == 'true' }}
     
     steps:
     - uses: actions/checkout@v4
@@ -179,7 +179,7 @@ jobs:
     name: Build AI/ML Samples
     runs-on: ubuntu-latest
     needs: changes
-    if: ${{ needs.changes.outputs.ai-ml == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.ai-ml == 'true' }}
     
     steps:
     - uses: actions/checkout@v4
@@ -192,7 +192,7 @@ jobs:
     - name: Build MLModels
       run: dotnet build "Artificial Intelligence and Machine Learning/sample-code/src/MLModels/MLModels.csproj"
 
-    - name: Build ChatGPT Plugin
+    - name: Build GitHub Issues Web API
       run: dotnet build "Artificial Intelligence and Machine Learning/sample-code/src/GitHubIssuesWebApi/GitHubIssuesWebApi.csproj"
     
     - name: Build ChatGPT Plugin
@@ -202,7 +202,7 @@ jobs:
     name: Build IoT Samples
     runs-on: ubuntu-latest
     needs: changes
-    if: ${{ needs.changes.outputs.iot == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.iot == 'true' }}
     
     steps:
     - uses: actions/checkout@v4
@@ -225,7 +225,7 @@ jobs:
     name: Build Blazor Hybrid Samples
     runs-on: windows-latest
     needs: changes
-    if: ${{ needs.changes.outputs.blazor-hybrid == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.blazor-hybrid == 'true' }}
     
     steps:
     - uses: actions/checkout@v4
@@ -254,7 +254,7 @@ jobs:
     name: Build MAUI Samples (Windows)
     runs-on: windows-latest
     needs: changes
-    if: ${{ needs.changes.outputs.maui == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || needs.changes.outputs.maui == 'true' }}
     # Note: MAUI projects require platform-specific workloads and are built on Windows
     
     steps:
